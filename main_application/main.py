@@ -31,6 +31,7 @@ def classification(wahzu_logs, surikata_logs, smtp_logs, system_logs):
     wahzu_flagged = wahzu_classifier(wahzu_logs=wahzu_logs)
 
     # Classification of logs from Surikata
+    # JSON data from Surikata will be passed
     surikata_flagged = surikata_classifier(surikata_logs=surikata_logs)
 
     # Classification of logs from SMTP server
@@ -70,16 +71,3 @@ def report_generator(markup_report):
     print("Report Generation function called")
     # Compile the syntax to make a report and downloadable in pdf format
     # Auto downloads the report to the user's system
-
-
-
-import pandas as pd
-# Load the combined log data
-combined_df = pd.read_csv('wahzu_classifier/combined.csv')
-
-# Load wahzu logs and call wahzu_classifier
-wahzu_logs = pd.read_csv('wahzu_classifier/combined.csv').to_dict(orient='records')
-flagged_logs = wahzu_classifier(wahzu_logs)
-
-# Print flagged logs
-print("Flagged Logs:", len(flagged_logs))
