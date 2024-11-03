@@ -6,13 +6,21 @@ from surikata_classifier.surikata_classifier import surikata_classifier
 from smtp_classifier.smtp_classifier import smtp_classifier
 from system_classifier.system_classifier import system_classifier
 from llm.llm_client import generate_text
+import pandas as pd
 
 # Trigger function
 def trigger():
     # All the logs will be retrieved from the multiple sources (Wahzu, Surikata, SMTP, System)
+    # WAHZU LOGS
     wahzu_logs = [] # logs from Wahzu
+
+    # SURIKATA LOGS
     surikata_logs = [] # logs from Surikata
-    smtp_logs = [] # logs from SMTP server
+
+    # SMTP LOGS
+    smtp_logs = pd.read_csv('smtp_logs.csv') # logs from SMTP server
+
+    # SYSTEM LOGS
     system_logs = [] # logs from the system
 
     flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs, system_logs=system_logs)
@@ -40,7 +48,7 @@ def classification(wahzu_logs, surikata_logs, smtp_logs, system_logs):
     # Classification of logs from the system
     system_flagged = system_classifier(system_logs=system_logs)
 
-    flagged_logs = {'WaZhu': wahzu_flagged, 'Surikata': surikata_flagged, 'SMTP': smtp_flagged, 'System': system_flagged}
+    flagged_logs = {'Wazhu': wahzu_flagged, 'Surikata': surikata_flagged, 'SMTP': smtp_flagged, 'System': system_flagged}
 
     return flagged_logs
 
