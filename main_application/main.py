@@ -56,7 +56,87 @@ def analyst_llm(flags):
     print("LLM function called")
     # Make call to a LLM server setup to analyse and then generate report on the flagged logs
     # Prompt
-    prompt = ""
+    prompt = """
+    You are an expert cybersecurity analyst specializing in incident response. Please analyze the following flagged logs collected from multiple sources. Your tasks are:
+
+    Analyze the Logs:
+        Examine each log individually to identify any signs of security incidents.
+        Correlate events across different logs to uncover patterns or connections that indicate a broader incident.
+
+    Generate an Incident Response Report:
+        Based on your analysis, create a comprehensive incident response report.
+        Use the provided report structure as a guideline, but feel free to adjust it as necessary to suit the specifics of the incident(s).
+        Ensure the report is clear, concise, and appropriate for both technical and non-technical stakeholders.
+
+    Report Structure:
+
+        Executive Summary
+            Overview of the Incident
+            Impact Assessment
+            Actions Taken
+            Current Status
+
+        Introduction
+            Purpose of the Report
+            Scope
+            Audience
+
+        Incident Description
+            Timeline of Events
+            Detection Method
+            Affected Systems and Data
+            Type of Incident
+
+        Detection and Analysis
+            Logs Collected
+            Analysis Procedures
+            Findings
+            Correlation of Events
+
+        Response Actions
+            Containment Measures
+            Eradication Steps
+            Recovery Process
+            Communication
+
+        Root Cause Analysis
+            Underlying Cause
+            Contributing Factors
+
+        Impact Assessment
+            Business Impact
+            Data Loss or Exposure
+            Regulatory Compliance Implications
+
+        Lessons Learned
+            What Worked Well
+            Areas for Improvement
+            Response Effectiveness
+
+        Recommendations
+            Preventive Measures
+            Security Enhancements
+            Training Needs
+
+        Conclusion
+            Summary of Incident and Response
+            Next Steps
+
+        Appendices (as needed)
+            Supporting Evidence
+            Technical Details
+            Contact Information
+
+    Notes:
+
+        Flexibility: Adjust the report structure to best fit the incident(s) you're reporting on. If certain sections are not applicable, you may omit them or combine sections for clarity.
+        Clarity and Detail: Provide sufficient technical details in the main body or appendices to support your findings and conclusions.
+        Confidentiality: Do not include any sensitive information that is not relevant to the incident analysis.
+
+        SUPER IMPORTANT: Only output the report content and nothing else apart form it.
+
+    Flagged Logs:
+    """
 
     input_text = prompt + " ".join(flags.values())
 
@@ -68,7 +148,47 @@ def markup_report_llm(report):
     print("Report Generation function called")
     # Generate report based on the analysis using another llm call in ASCII syntax
     # Prompt
-    prompt = ""
+    prompt = """
+        You are an expert in document formatting with proficiency in AsciiDoc syntax. Your task is to convert the following incident response report into AsciiDoc format. Please adhere strictly to the following guidelines:
+
+        Conversion Requirements:
+
+        - Headings:
+        - Use a single equals sign (`=`) for the main title.
+        - Use double equals signs (`==`) for section titles.
+        - Use triple equals signs (`===`) for subsection titles, and so on.
+
+        - Paragraphs:
+        - Separate paragraphs with a blank line.
+
+        - Lists:
+        - Unordered Lists: Start items with an asterisk followed by a space (` `).
+        - Ordered Lists: Start items with a period followed by a space (`. `).
+
+        - Text Formatting:
+        - Bold Text: Enclose text with double asterisks (`bold text`).
+        - Italic Text: Enclose text with underscores (`_italic text_`).
+
+        - Code Blocks:
+        - Use four consecutive hyphens before and after the code block:
+            ```Your code here```
+
+        - Tables:
+        - Use the AsciiDoc table syntax for any tabular data.
+
+        - Images:
+        - If there are images, use the syntax:
+            ```image::filename.ext[Alt Text]```
+
+        Output Instructions:
+
+        - Exclusive Content: Only output the AsciiDoc code for the converted report.
+        - No Additional Text: Do not include any explanations, comments, or text other than the AsciiDoc code.
+        - Compilation Ready: Ensure the AsciiDoc code is properly formatted and ready for compilation without any modifications.
+
+        Incident Response Report:
+
+        """
 
     input_text = prompt + report
     # Output syntax doc
