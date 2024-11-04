@@ -1,0 +1,16 @@
+[6133] Notice: suricata: This is Suricata version 7.0.6 RELEASE running in SYSTEM mode
+[6133] Info: cpu: CPUs/cores online: 1
+[6133] Config: device: Adding interface enp0s1 from config file
+[6133] Config: luajit: luajit states preallocated: 128
+[6133] Info: mpm: SSSE3 support not detected, disabling Hyperscan for MPM
+[6133] Info: suricata: Setting engine mode to IDS mode by default
+[6133] Info: exception-policy: master exception-policy set to: auto
+[6133] Info: spm: SSSE3 support not detected, disabling Hyperscan for SPM
+[6133] Config: exception-policy: app-layer.error-policy: ignore (defined via 'exception-policy' master switch)
+[6133] Config: app-layer-htp: 'default' server has 'request-body-minimal-inspect-size' set to 31427 and 'request-body-inspect-window' set to 3969 after randomization.
+[6133] Config: app-layer-htp: 'default' server has 'response-body-minimal-inspect-size' set to 40290 and 'response-body-inspect-window' set to 16405 after randomization.
+[6133] Config: smb: read: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[6133] Config: smb: write: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[6133] Config: app-layer-enip: Protocol detection and parser disabled for enip protocol.
+[6133] Config: app-layer-dnp3: Protocol detection and parser disabled for DNP3.
+[6133] Info: ioctl: enp0s1: MTU 1500

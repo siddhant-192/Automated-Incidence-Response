@@ -1,0 +1,171 @@
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Notice: suricata: This is Suricata version 7.0.6 RELEASE running in USER mode
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: cpu: CPUs/cores online: 1
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: mpm: SSSE3 support not detected, disabling Hyperscan for MPM
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: suricata: Setting engine mode to IDS mode by default
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: exception-policy: master exception-policy set to: auto
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: spm: SSSE3 support not detected, disabling Hyperscan for SPM
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: logopenfile: fast output device (regular) initialized: fast.log
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: logopenfile: http-log output device (regular) initialized: http.log
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: logopenfile: tls-log output device (regular) initialized: tls.log
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: log-tlsstore: storing certs in .
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: logopenfile: stats output device (regular) initialized: stats.log
+[7570 - Suricata-Main] 2024-09-27 16:14:23 Info: spm: SSSE3 support not detected, disabling Hyperscan for SPM
+[7570 - Suricata-Main] 2024-09-27 16:14:31 Info: detect: 1 rule files processed. 39915 rules successfully loaded, 0 rules failed, 0
+[7570 - Suricata-Main] 2024-09-27 16:14:31 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[7570 - Suricata-Main] 2024-09-27 16:14:31 Info: detect: 39918 signatures processed. 1159 are IP-only rules, 4137 are inspecting packet payload, 34412 inspect application layer, 108 are decoder event only
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Argument ../pcaps/ was a directory
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Starting directory run for ../pcaps/
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 0 and older than 1727453650987
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-09-20-squirrelwaffle.pcap" at 1727452257533
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-17-formbook.pcap" at 1727452257406
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-20-formbook.pcap" at 1727452257449
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-19-redline-2.pcap" at 1727452257494
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-09-20-squirrelwaffle-2.pcap" at 1727452257525
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-16-formbook.pcap" at 1727452257387
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-09-14-lokibot.pcap" at 1727452257489
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-19-redline.pcap" at 1727452257511
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-09-14-agenttesla.pcap" at 1727452257357
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-09-20-squirrelwaffle-3.pcap" at 1727452257528
+[7571 - RX#01] 2024-09-27 16:14:40 Info: pcap: Found "../pcaps//2021-08-20-formbook-2.pcap" at 1727452257423
+[7570 - Suricata-Main] 2024-09-27 16:14:40 Notice: threads: Threads created -> RX: 1 W: 1 FM: 1 FR: 1   Engine started.
+[7571 - RX#01] 2024-09-27 16:14:40 Info: checksum: No packets with invalid checksum, assuming checksum offloading is NOT used
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-09-14-agenttesla.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-09-14-agenttesla.pcap, processed up to 1727452257357
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-16-formbook.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-16-formbook.pcap, processed up to 1727452257387
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-17-formbook.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-17-formbook.pcap, processed up to 1727452257406
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-20-formbook-2.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-20-formbook-2.pcap, processed up to 1727452257423
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-20-formbook.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-20-formbook.pcap, processed up to 1727452257449
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-09-14-lokibot.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-09-14-lokibot.pcap, processed up to 1727452257489
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-19-redline-2.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-19-redline-2.pcap, processed up to 1727452257494
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-08-19-redline.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-08-19-redline.pcap, processed up to 1727452257511
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-09-20-squirrelwaffle-2.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-09-20-squirrelwaffle-2.pcap, processed up to 1727452257525
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-09-20-squirrelwaffle-3.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-09-20-squirrelwaffle-3.pcap, processed up to 1727452257528
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: pcap file ../pcaps//2021-09-20-squirrelwaffle.pcap end of file reached (pcap err code 0)
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Processed file ../pcaps//2021-09-20-squirrelwaffle.pcap, processed up to 1727452257533
+[7571 - RX#01] 2024-09-27 16:14:41 Info: pcap: Updating processed to 1727452257533
+[7571 - RX#01] 2024-09-27 16:14:46 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453651923
+[7571 - RX#01] 2024-09-27 16:14:51 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453656927
+[7571 - RX#01] 2024-09-27 16:14:56 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453661930
+[7571 - RX#01] 2024-09-27 16:15:01 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453666932
+[7571 - RX#01] 2024-09-27 16:15:06 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453671945
+[7571 - RX#01] 2024-09-27 16:15:11 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453676951
+[7571 - RX#01] 2024-09-27 16:15:16 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453681957
+[7571 - RX#01] 2024-09-27 16:15:21 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453686964
+[7571 - RX#01] 2024-09-27 16:15:26 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453691968
+[7571 - RX#01] 2024-09-27 16:15:31 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453696973
+[7571 - RX#01] 2024-09-27 16:15:36 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453701978
+[7571 - RX#01] 2024-09-27 16:15:41 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453706993
+[7571 - RX#01] 2024-09-27 16:15:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453712002
+[7571 - RX#01] 2024-09-27 16:15:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453717014
+[7571 - RX#01] 2024-09-27 16:15:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453722018
+[7571 - RX#01] 2024-09-27 16:16:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453727021
+[7571 - RX#01] 2024-09-27 16:16:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453732025
+[7571 - RX#01] 2024-09-27 16:16:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453737029
+[7571 - RX#01] 2024-09-27 16:16:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453742039
+[7571 - RX#01] 2024-09-27 16:16:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453747042
+[7571 - RX#01] 2024-09-27 16:16:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453752047
+[7571 - RX#01] 2024-09-27 16:16:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453757052
+[7571 - RX#01] 2024-09-27 16:16:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453762063
+[7571 - RX#01] 2024-09-27 16:16:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453767076
+[7571 - RX#01] 2024-09-27 16:16:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453772081
+[7571 - RX#01] 2024-09-27 16:16:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453777087
+[7571 - RX#01] 2024-09-27 16:16:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453782097
+[7571 - RX#01] 2024-09-27 16:17:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453787099
+[7571 - RX#01] 2024-09-27 16:17:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453792102
+[7571 - RX#01] 2024-09-27 16:17:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453797107
+[7571 - RX#01] 2024-09-27 16:17:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453802117
+[7571 - RX#01] 2024-09-27 16:17:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453807122
+[7571 - RX#01] 2024-09-27 16:17:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453812127
+[7571 - RX#01] 2024-09-27 16:17:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453817135
+[7571 - RX#01] 2024-09-27 16:17:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453822140
+[7571 - RX#01] 2024-09-27 16:17:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453827144
+[7571 - RX#01] 2024-09-27 16:17:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453832148
+[7571 - RX#01] 2024-09-27 16:17:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453837154
+[7571 - RX#01] 2024-09-27 16:17:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453842159
+[7571 - RX#01] 2024-09-27 16:18:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453847162
+[7571 - RX#01] 2024-09-27 16:18:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453852167
+[7571 - RX#01] 2024-09-27 16:18:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453857169
+[7571 - RX#01] 2024-09-27 16:18:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453862179
+[7571 - RX#01] 2024-09-27 16:18:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453867188
+[7571 - RX#01] 2024-09-27 16:18:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453872192
+[7571 - RX#01] 2024-09-27 16:18:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453877197
+[7571 - RX#01] 2024-09-27 16:18:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453882202
+[7571 - RX#01] 2024-09-27 16:18:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453887204
+[7571 - RX#01] 2024-09-27 16:18:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453892213
+[7571 - RX#01] 2024-09-27 16:18:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453897217
+[7571 - RX#01] 2024-09-27 16:18:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453902227
+[7571 - RX#01] 2024-09-27 16:19:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453907232
+[7571 - RX#01] 2024-09-27 16:19:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453912237
+[7571 - RX#01] 2024-09-27 16:19:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453917243
+[7571 - RX#01] 2024-09-27 16:19:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453922252
+[7571 - RX#01] 2024-09-27 16:19:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453927259
+[7571 - RX#01] 2024-09-27 16:19:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453932263
+[7571 - RX#01] 2024-09-27 16:19:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453937268
+[7571 - RX#01] 2024-09-27 16:19:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453942277
+[7571 - RX#01] 2024-09-27 16:19:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453947294
+[7571 - RX#01] 2024-09-27 16:19:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453952300
+[7571 - RX#01] 2024-09-27 16:19:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453957305
+[7571 - RX#01] 2024-09-27 16:19:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453962310
+[7571 - RX#01] 2024-09-27 16:20:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453967324
+[7571 - RX#01] 2024-09-27 16:20:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453972325
+[7571 - RX#01] 2024-09-27 16:20:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453977330
+[7571 - RX#01] 2024-09-27 16:20:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453982340
+[7571 - RX#01] 2024-09-27 16:20:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453987343
+[7571 - RX#01] 2024-09-27 16:20:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453992347
+[7571 - RX#01] 2024-09-27 16:20:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727453997353
+[7571 - RX#01] 2024-09-27 16:20:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454002361
+[7571 - RX#01] 2024-09-27 16:20:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454007370
+[7571 - RX#01] 2024-09-27 16:20:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454012377
+[7571 - RX#01] 2024-09-27 16:20:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454017383
+[7571 - RX#01] 2024-09-27 16:20:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454022388
+[7571 - RX#01] 2024-09-27 16:21:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454027394
+[7571 - RX#01] 2024-09-27 16:21:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454032399
+[7571 - RX#01] 2024-09-27 16:21:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454037402
+[7571 - RX#01] 2024-09-27 16:21:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454042409
+[7571 - RX#01] 2024-09-27 16:21:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454047420
+[7571 - RX#01] 2024-09-27 16:21:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454052428
+[7571 - RX#01] 2024-09-27 16:21:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454057437
+[7571 - RX#01] 2024-09-27 16:21:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454062442
+[7571 - RX#01] 2024-09-27 16:21:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454067446
+[7571 - RX#01] 2024-09-27 16:21:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454072449
+[7571 - RX#01] 2024-09-27 16:21:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454077452
+[7571 - RX#01] 2024-09-27 16:21:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454082458
+[7571 - RX#01] 2024-09-27 16:22:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454087463
+[7571 - RX#01] 2024-09-27 16:22:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454092472
+[7571 - RX#01] 2024-09-27 16:22:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454097475
+[7571 - RX#01] 2024-09-27 16:22:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454102479
+[7571 - RX#01] 2024-09-27 16:22:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454107483
+[7571 - RX#01] 2024-09-27 16:22:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454112486
+[7571 - RX#01] 2024-09-27 16:22:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454117490
+[7571 - RX#01] 2024-09-27 16:22:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454122493
+[7571 - RX#01] 2024-09-27 16:22:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454127496
+[7571 - RX#01] 2024-09-27 16:22:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454132500
+[7571 - RX#01] 2024-09-27 16:22:52 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454137503
+[7571 - RX#01] 2024-09-27 16:22:57 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454142505
+[7571 - RX#01] 2024-09-27 16:23:02 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454147509
+[7571 - RX#01] 2024-09-27 16:23:07 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454152515
+[7571 - RX#01] 2024-09-27 16:23:12 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454157520
+[7571 - RX#01] 2024-09-27 16:23:17 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454162527
+[7571 - RX#01] 2024-09-27 16:23:22 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454167530
+[7571 - RX#01] 2024-09-27 16:23:27 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454172536
+[7571 - RX#01] 2024-09-27 16:23:32 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454177542
+[7571 - RX#01] 2024-09-27 16:23:37 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454182549
+[7571 - RX#01] 2024-09-27 16:23:42 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454187560
+[7571 - RX#01] 2024-09-27 16:23:47 Info: pcap: Processing pcaps directory ../pcaps/, files must be newer than 1727452257533 and older than 1727454192566
+[7570 - Suricata-Main] 2024-09-27 16:23:51 Notice: suricata: Signal Received.  Stopping engine.
+[7571 - RX#01] 2024-09-27 16:23:52 Info: pcap: Directory run mode complete
+[7570 - Suricata-Main] 2024-09-27 16:23:52 Info: suricata: time elapsed 551.787s
+[7571 - RX#01] 2024-09-27 16:23:52 Notice: pcap: read 11 files, 25733 packets, 15768440 bytes
+[7572 - W#01] 2024-09-27 16:23:52 Info: log-tlslog: TLS logger logged 128 requests
+[7572 - W#01] 2024-09-27 16:23:52 Info: log-tlsstore: (W#01) certificates extracted 0
+[7570 - Suricata-Main] 2024-09-27 16:23:52 Info: counters: Alerts: 599

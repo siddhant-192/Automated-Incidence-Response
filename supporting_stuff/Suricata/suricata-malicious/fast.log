@@ -1,0 +1,599 @@
+09/14/2021-14:29:48.809559  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49678
+09/14/2021-14:29:48.892253  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.0.147:49680 -> 172.245.26.145:80
+09/14/2021-14:30:07.082790  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:07.288552  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:07.538175  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:08.173659  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:09.023652  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.0.147:49692 -> 104.16.18.94:80
+09/14/2021-14:30:09.044199  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.044199  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.044199  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.149721  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.239812  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.240861  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.250890  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49689
+09/14/2021-14:30:09.329929  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.330689  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.341415  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.342407  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.342569  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.343894  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49694
+09/14/2021-14:30:09.420529  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.421620  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.434271  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.439318  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.441283  [**] [1:50200014:1] Attempt to access /media* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49689
+09/14/2021-14:30:09.442712  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49694
+09/14/2021-14:30:09.510826  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.511353  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.513294  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.513632  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.513921  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.524489  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.524794  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.525042  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.525694  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.535615  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.536137  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.545498  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.545930  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.546151  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.546552  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.546712  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.601185  [**] [1:50100003:1] Possible XSS attack, js protocol [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.601185  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.601635  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.602284  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:09.749073  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49694
+09/14/2021-14:30:09.749073  [**] [1:50200014:1] Attempt to access /media* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49694
+09/14/2021-14:30:14.665935  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49687
+09/14/2021-14:30:19.577980  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:20.149777  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:20.516559  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:20.874033  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:25.731962  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:25.818587  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:25.970907  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.147:49686 -> 13.107.5.80:80
+09/14/2021-14:30:28.696942  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49712
+09/14/2021-14:30:28.697326  [**] [1:2016141:9] ET INFO Executable Download from dotted-quad Host [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.147:49712 -> 172.245.26.145:80
+09/14/2021-14:30:28.971331  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49712
+09/14/2021-14:30:28.971331  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.245.26.145:80 -> 10.0.0.147:49712
+09/14/2021-14:30:34.204308  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.26.145:80 -> 10.0.0.147:49712
+08/16/2021-20:28:53.908222  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53473 -> 13.107.5.80:80
+08/16/2021-20:28:54.710714  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 18.184.26.60:80 -> 10.10.0.33:53475
+08/16/2021-20:28:54.719798  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.33:53477 -> 18.184.26.60:80
+08/16/2021-20:29:07.064382  [**] [1:2016141:9] ET INFO Executable Download from dotted-quad Host [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.33:53480 -> 18.184.26.60:80
+08/16/2021-20:29:07.085103  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 18.184.26.60:80 -> 10.10.0.33:53480
+08/16/2021-20:29:07.085103  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 18.184.26.60:80 -> 10.10.0.33:53480
+08/16/2021-20:29:07.654224  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 18.184.26.60:80 -> 10.10.0.33:53480
+08/16/2021-20:31:30.029640  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53521 -> 34.102.136.180:80
+08/16/2021-20:31:30.031055  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53521
+08/16/2021-20:31:42.149979  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53522 -> 50.87.249.29:80
+08/16/2021-20:31:46.547054  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53523 -> 74.220.219.18:80
+08/16/2021-20:32:17.235123  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53525
+08/16/2021-20:32:27.901976  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:27.901976  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:27.901976  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:27.947755  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:27.947755  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:28.029222  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+08/16/2021-20:32:33.157779  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53529 -> 151.101.0.119:80
+08/16/2021-20:33:14.361570  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53533
+08/16/2021-20:33:25.521358  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53534 -> 50.87.249.29:80
+08/16/2021-20:33:30.533797  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53535 -> 74.220.219.18:80
+08/16/2021-20:34:01.190120  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53537
+08/16/2021-20:34:11.641243  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.641243  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.641243  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.680074  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.680074  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.680627  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.802522  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.803092  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.803092  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:11.926666  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53538
+08/16/2021-20:34:16.912579  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53539 -> 151.101.0.119:80
+08/16/2021-20:34:58.094598  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53543
+08/16/2021-20:35:10.060699  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53544 -> 50.87.249.29:80
+08/16/2021-20:35:14.241367  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53545 -> 74.220.219.18:80
+08/16/2021-20:35:57.002170  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53563 -> 34.102.136.180:80
+08/16/2021-20:35:57.007558  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53564
+08/16/2021-20:36:07.560284  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:07.560284  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:07.560284  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:07.583783  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:07.708388  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:07.708388  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53566
+08/16/2021-20:36:12.688082  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53567 -> 151.101.0.119:80
+08/16/2021-20:36:12.694105  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53568 -> 151.101.0.119:80
+08/16/2021-20:36:32.152379  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.0.33:53570 -> 13.107.4.52:80
+08/16/2021-20:36:32.224713  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.0.33:53570 -> 13.107.4.52:80
+08/16/2021-20:36:32.265386  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.0.33:53570 -> 13.107.4.52:80
+08/16/2021-20:36:32.308741  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.0.33:53570 -> 13.107.4.52:80
+08/16/2021-20:37:09.821949  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53573 -> 35.214.181.99:80
+08/16/2021-20:37:14.938806  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53575 -> 34.102.136.180:80
+08/16/2021-20:37:14.940168  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53576 -> 34.102.136.180:80
+08/16/2021-20:37:14.941264  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53576
+08/16/2021-20:37:26.089823  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53577 -> 50.87.249.29:80
+08/16/2021-20:37:26.299634  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53578 -> 50.87.249.29:80
+08/16/2021-20:37:31.072944  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53579 -> 74.220.219.18:80
+08/16/2021-20:37:31.406383  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53580 -> 74.220.219.18:80
+08/16/2021-20:37:53.761988  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53583 -> 162.0.223.226:80
+08/16/2021-20:38:06.126662  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53585 -> 34.102.136.180:80
+08/16/2021-20:38:06.130354  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.33:53586
+08/17/2021-14:20:37.161938  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.245.119.43:80 -> 10.10.0.32:62392
+08/17/2021-14:20:37.254188  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.32:62391 -> 172.245.119.43:80
+08/17/2021-14:20:49.101181  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 172.245.119.43:80 -> 10.10.0.32:62401
+08/17/2021-14:20:49.283228  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53547 -> 162.0.223.226:80
+08/17/2021-14:20:49.283359  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53520 -> 35.214.181.99:80
+08/17/2021-14:20:49.283414  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53538 -> 204.11.56.48:80
+08/17/2021-14:20:49.283417  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53587 -> 204.11.56.48:80
+08/17/2021-14:20:49.462085  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.245.119.43:80 -> 10.10.0.32:62401
+08/17/2021-14:23:14.297770  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+08/17/2021-14:23:14.297770  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+08/17/2021-14:23:14.297770  [**] [1:50200010:1] Attempt to access /boot* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+08/17/2021-14:24:16.074777  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62436
+08/17/2021-14:24:16.074777  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62436
+08/17/2021-14:24:36.095067  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.32:62437
+08/17/2021-14:25:15.412920  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62441 -> 185.230.60.177:80
+08/17/2021-14:25:35.610249  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.32:62442
+08/17/2021-14:25:56.819348  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.101.160.101:80 -> 10.10.0.32:62443
+08/17/2021-14:26:57.173785  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.32:62445
+08/17/2021-14:27:18.072015  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 166.62.10.223:80 -> 10.10.0.32:62446
+08/17/2021-14:27:37.986972  [**] [1:2029710:6] ET HUNTING Suspicious Domain Request for Possible COVID-19 Domain M2 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.10.0.32:61883 -> 8.8.8.8:53
+08/17/2021-14:27:38.101341  [**] [1:2029712:4] ET HUNTING Suspicious GET Request with Possible COVID-19 Domain M2 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.32:62447 -> 34.102.136.180:80
+08/17/2021-14:27:38.103094  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.32:62447
+08/17/2021-14:28:39.257360  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+08/17/2021-14:28:39.257360  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+08/17/2021-14:28:39.257360  [**] [1:50200010:1] Attempt to access /boot* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+08/17/2021-14:29:40.540315  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62451
+08/17/2021-14:29:40.540315  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62451
+08/17/2021-14:29:40.791744  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62451 -> 157.7.107.89:80
+08/17/2021-14:30:00.788680  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.32:62452
+08/20/2021-14:27:27.920497  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 75.127.7.165:80 -> 10.10.0.41:63280
+08/20/2021-14:27:28.041505  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.41:63280 -> 75.127.7.165:80
+08/20/2021-14:27:32.159856  [**] [1:2016141:9] ET INFO Executable Download from dotted-quad Host [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.41:63280 -> 75.127.7.165:80
+08/20/2021-14:27:32.518133  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 75.127.7.165:80 -> 10.10.0.41:63280
+08/20/2021-14:27:32.518133  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 75.127.7.165:80 -> 10.10.0.41:63280
+08/20/2021-14:27:37.673518  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 75.127.7.165:80 -> 10.10.0.41:63280
+08/20/2021-14:29:00.995584  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63349
+08/20/2021-14:29:06.251077  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63350
+08/20/2021-14:29:17.201762  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:17.201762  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:17.201762  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:17.202304  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:17.326029  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:17.326029  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63352
+08/20/2021-14:29:22.284752  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63353
+08/20/2021-14:29:22.284968  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63353 -> 172.217.168.211:80
+08/20/2021-14:29:37.763441  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63355
+08/20/2021-14:29:58.069547  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63357
+08/20/2021-14:30:08.386025  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63359
+08/20/2021-14:30:23.589644  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63360
+08/20/2021-14:30:28.768876  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63361
+08/20/2021-14:30:39.593865  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63363
+08/20/2021-14:30:39.593865  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63363
+08/20/2021-14:30:39.593865  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63363
+08/20/2021-14:30:39.718224  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63363
+08/20/2021-14:30:39.718224  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63363
+08/20/2021-14:30:44.617951  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63364
+08/20/2021-14:31:00.260589  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63366
+08/20/2021-14:31:20.683597  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63368
+08/20/2021-14:31:30.932447  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63370
+08/20/2021-14:31:46.385838  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63373
+08/20/2021-14:31:51.566553  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63374
+08/20/2021-14:32:02.301127  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:02.301127  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:02.301127  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:02.301687  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:02.425623  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:02.425623  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63376
+08/20/2021-14:32:07.336088  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63377
+08/20/2021-14:32:07.336415  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63377 -> 172.217.168.211:80
+08/20/2021-14:32:30.018560  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63383 -> 34.102.136.180:80
+08/20/2021-14:32:30.020564  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63384 -> 34.102.136.180:80
+08/20/2021-14:32:30.023105  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63384
+08/20/2021-14:32:40.044619  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63385 -> 160.153.136.3:80
+08/20/2021-14:32:40.045970  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63386 -> 160.153.136.3:80
+08/20/2021-14:32:50.305404  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63387 -> 34.102.136.180:80
+08/20/2021-14:32:50.311139  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63388
+08/20/2021-14:32:55.340281  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63389 -> 99.83.154.118:80
+08/20/2021-14:32:55.447391  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62444 -> 172.67.170.122:80
+08/20/2021-14:32:55.448005  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62451
+08/20/2021-14:32:55.448005  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62451
+08/20/2021-14:32:55.448005  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63363 -> 209.99.40.222:80
+08/20/2021-14:32:55.448287  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53536 -> 172.67.187.204:80
+08/20/2021-14:33:00.254496  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63358 -> 99.83.154.118:80
+08/20/2021-14:33:00.254496  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63369 -> 99.83.154.118:80
+08/20/2021-14:33:00.555836  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63391 -> 34.102.136.180:80
+08/20/2021-14:33:00.559977  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63392
+08/20/2021-14:33:16.227507  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63393 -> 34.102.136.180:80
+08/20/2021-14:33:16.231012  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63394
+08/20/2021-14:33:21.356104  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63395 -> 5.2.87.161:80
+08/20/2021-14:33:21.414235  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63396 -> 5.2.87.161:80
+08/20/2021-14:33:21.470753  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63396
+08/20/2021-14:33:26.751335  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63397 -> 54.185.178.6:80
+08/20/2021-14:33:32.504267  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63400
+08/20/2021-14:33:32.504267  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63400
+08/20/2021-14:33:32.504267  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63400
+08/20/2021-14:33:32.629043  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63400
+08/20/2021-14:33:32.629043  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63400
+08/20/2021-14:33:37.541586  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63402
+08/20/2021-14:33:37.546576  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63401 -> 172.217.168.211:80
+08/20/2021-14:33:44.399086  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63404 -> 184.168.131.241:80
+08/20/2021-14:33:51.208597  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63405 -> 162.0.219.212:80
+08/20/2021-14:33:58.509548  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63407 -> 34.102.136.180:80
+08/20/2021-14:33:58.512978  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63408
+08/20/2021-14:34:08.574633  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63409 -> 160.153.136.3:80
+08/20/2021-14:34:18.837472  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63411 -> 34.102.136.180:80
+08/20/2021-14:34:18.840575  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63412
+08/20/2021-14:34:23.869546  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63413 -> 99.83.154.118:80
+08/20/2021-14:34:29.089039  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63415 -> 34.102.136.180:80
+08/20/2021-14:34:29.089899  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63416 -> 34.102.136.180:80
+08/20/2021-14:34:29.091266  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63416
+08/20/2021-14:34:44.385886  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63417
+08/20/2021-14:34:49.564163  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63418
+08/20/2021-14:35:00.306672  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:00.306672  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:00.306672  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:00.307192  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:00.430497  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:00.430497  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63420
+08/20/2021-14:35:05.344241  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63421
+08/20/2021-14:35:22.980608  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63424
+08/20/2021-14:35:33.028671  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63425 -> 160.153.136.3:80
+08/20/2021-14:35:43.164943  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63426 -> 34.102.136.180:80
+08/20/2021-14:35:43.164943  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63426 -> 34.102.136.180:80
+08/20/2021-14:35:43.166259  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63426
+08/20/2021-14:35:53.415944  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63428
+08/20/2021-14:36:08.697876  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63429
+08/20/2021-14:36:13.875637  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63430
+08/20/2021-14:36:24.603779  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:24.603779  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:24.603779  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:24.604398  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:24.727954  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:24.727954  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 209.99.40.222:80 -> 10.10.0.41:63432
+08/20/2021-14:36:29.635275  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63433
+08/20/2021-14:36:47.557679  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63436
+08/20/2021-14:37:07.743859  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63438
+08/20/2021-14:37:17.996273  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 34.102.136.180:80 -> 10.10.0.41:63440
+08/20/2021-14:25:10.744929  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.3.152.208:80 -> 10.10.0.10:65082
+08/20/2021-14:25:10.855569  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.10:65082 -> 192.3.152.208:80
+08/20/2021-14:25:20.825402  [**] [1:2016141:9] ET INFO Executable Download from dotted-quad Host [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65083 -> 192.3.152.208:80
+08/20/2021-14:25:20.825402  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.10:65083 -> 192.3.152.208:80
+08/20/2021-14:25:21.021451  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.3.152.208:80 -> 10.10.0.10:65083
+08/20/2021-14:25:21.021451  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.3.152.208:80 -> 10.10.0.10:65083
+08/20/2021-14:25:21.766340  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.3.152.208:80 -> 10.10.0.10:65083
+08/20/2021-14:27:21.282728  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65131 -> 85.233.160.24:80
+08/20/2021-14:27:21.291699  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65131
+08/20/2021-14:27:31.621051  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65132 -> 66.235.200.147:80
+08/20/2021-14:27:36.913690  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65133 -> 74.208.236.212:80
+08/20/2021-14:27:42.420911  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65134 -> 199.34.228.189:80
+08/20/2021-14:27:52.745103  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65135 -> 3.133.163.136:80
+08/20/2021-14:27:58.473520  [**] [1:2400005:4097] ET DROP Spamhaus DROP Listed Traffic Inbound group 6 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 49.156.179.85:80 -> 10.10.0.10:65136
+08/20/2021-14:28:10.358488  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65137
+08/20/2021-14:28:10.358488  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65137
+08/20/2021-14:28:25.557507  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65138 -> 217.160.0.2:80
+08/20/2021-14:28:35.609880  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65139 -> 160.153.136.3:80
+08/20/2021-14:28:45.651064  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65140 -> 85.233.160.24:80
+08/20/2021-14:28:45.659943  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65140
+08/20/2021-14:28:55.712314  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65141 -> 66.235.200.147:80
+08/20/2021-14:29:00.964267  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65142 -> 74.208.236.212:80
+08/20/2021-14:29:06.387046  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65143 -> 199.34.228.189:80
+08/20/2021-14:29:16.602603  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65146 -> 3.133.163.136:80
+08/20/2021-14:29:22.088397  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65147 -> 49.156.179.85:80
+08/20/2021-14:29:22.088397  [**] [1:2031088:4] ET HUNTING Request to .XYZ Domain with Minimal Headers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65147 -> 49.156.179.85:80
+08/20/2021-14:29:32.511837  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65148
+08/20/2021-14:29:32.511837  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65148
+08/20/2021-14:29:32.512315  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65148 -> 208.91.197.13:80
+08/20/2021-14:29:47.766391  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65149 -> 217.160.0.2:80
+08/20/2021-14:29:57.801019  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65150 -> 160.153.136.3:80
+08/20/2021-14:30:15.206031  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65162 -> 85.233.160.24:80
+08/20/2021-14:30:15.216551  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65163 -> 85.233.160.24:80
+08/20/2021-14:30:15.225869  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65163
+08/20/2021-14:30:25.251808  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65164 -> 66.235.200.147:80
+08/20/2021-14:30:25.270732  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65165 -> 66.235.200.147:80
+08/20/2021-14:30:30.643184  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65167 -> 74.208.236.212:80
+08/20/2021-14:30:36.217052  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65169 -> 199.34.228.189:80
+08/20/2021-14:30:46.425425  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65170 -> 3.133.163.136:80
+08/20/2021-14:30:46.525265  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65171 -> 3.133.163.136:80
+08/20/2021-14:30:52.010025  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65172 -> 49.156.179.85:80
+08/20/2021-14:31:02.868825  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65175
+08/20/2021-14:31:02.868825  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65175
+08/20/2021-14:31:18.308276  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65177 -> 217.160.0.2:80
+08/20/2021-14:31:28.362889  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65178 -> 160.153.136.3:80
+08/20/2021-14:31:28.366000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65179 -> 160.153.136.3:80
+08/20/2021-14:31:35.573444  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65180 -> 162.0.219.212:80
+08/20/2021-14:31:42.798705  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65182 -> 85.233.160.24:80
+08/20/2021-14:31:42.807099  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65183 -> 85.233.160.24:80
+08/20/2021-14:31:42.816198  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65183
+08/20/2021-14:31:53.124778  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65185 -> 66.235.200.147:80
+08/20/2021-14:31:53.617032  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65184 -> 66.235.200.147:80
+08/20/2021-14:31:58.504821  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65187 -> 74.208.236.212:80
+08/20/2021-14:32:04.103783  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65189 -> 199.34.228.189:80
+08/20/2021-14:32:14.121407  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62443 -> 103.101.160.101:80
+08/20/2021-14:32:14.310920  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65190 -> 3.133.163.136:80
+08/20/2021-14:32:14.404797  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65191 -> 3.133.163.136:80
+08/20/2021-14:32:19.891213  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65192 -> 49.156.179.85:80
+08/20/2021-14:32:20.148334  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65193 -> 49.156.179.85:80
+08/20/2021-14:32:20.148334  [**] [1:2031088:4] ET HUNTING Request to .XYZ Domain with Minimal Headers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65193 -> 49.156.179.85:80
+08/20/2021-14:32:30.708487  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65195
+08/20/2021-14:32:30.708487  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65195
+08/20/2021-14:32:30.708939  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65195 -> 208.91.197.13:80
+08/20/2021-14:32:45.945403  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65197 -> 217.160.0.2:80
+08/20/2021-14:32:55.974383  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65198 -> 160.153.136.3:80
+08/20/2021-14:33:08.219627  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65200 -> 85.233.160.24:80
+08/20/2021-14:33:08.228704  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65200
+08/20/2021-14:33:18.262077  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65201 -> 66.235.200.147:80
+08/20/2021-14:33:23.527011  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65202 -> 74.208.236.212:80
+08/20/2021-14:33:28.957435  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65203 -> 199.34.228.189:80
+08/20/2021-14:33:39.165274  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65204 -> 3.133.163.136:80
+08/20/2021-14:33:44.640745  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65205 -> 49.156.179.85:80
+08/20/2021-14:33:44.640745  [**] [1:2031088:4] ET HUNTING Request to .XYZ Domain with Minimal Headers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65205 -> 49.156.179.85:80
+08/20/2021-14:33:55.064778  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65206
+08/20/2021-14:33:55.064778  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 208.91.197.13:80 -> 10.10.0.10:65206
+08/20/2021-14:33:55.065055  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65206 -> 208.91.197.13:80
+08/20/2021-14:34:10.197441  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65207 -> 217.160.0.2:80
+08/20/2021-14:34:20.237135  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65208 -> 160.153.136.3:80
+08/20/2021-14:34:32.469666  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65210 -> 85.233.160.24:80
+08/20/2021-14:34:32.478483  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65210
+08/20/2021-14:34:42.513771  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65211 -> 66.235.200.147:80
+08/20/2021-14:34:47.768920  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65212 -> 74.208.236.212:80
+08/20/2021-14:34:53.192103  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65213 -> 199.34.228.189:80
+08/20/2021-14:35:03.401359  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65214 -> 3.133.163.136:80
+09/14/2021-14:34:50.818100  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.0.168:49709 -> 104.16.18.94:80
+09/14/2021-14:34:51.027442  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.027442  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.027442  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.303845  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.577190  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.577775  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.578419  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.623473  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49706
+09/14/2021-14:34:51.850276  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.850952  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.852962  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.853467  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.853789  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.853854  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:51.855769  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49711
+09/14/2021-14:34:51.904817  [**] [1:50200014:1] Attempt to access /media* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49706
+09/14/2021-14:34:52.123256  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.123909  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.124718  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.130117  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49711
+09/14/2021-14:34:52.397112  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.409970  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.410834  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.410881  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.416844  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.418871  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.419017  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.419266  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.671058  [**] [1:50100003:1] Possible XSS attack, js protocol [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.671058  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.671576  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.683704  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.684141  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.684183  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.687709  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.688255  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:34:52.988004  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49711
+09/14/2021-14:34:52.988004  [**] [1:50200014:1] Attempt to access /media* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49711
+09/14/2021-14:34:56.803268  [**] [1:50200009:1] Attempt to access /home* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49705
+09/14/2021-14:35:28.117213  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:28.363575  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:28.588623  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:29.040712  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:29.189646  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:29.358811  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:30.924026  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:31.090647  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:31.343233  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:31.566015  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:31.758836  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:31.898488  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.0.0.168:49722 -> 13.107.5.80:80
+09/14/2021-14:35:32.825963  [**] [1:2016141:9] ET INFO Executable Download from dotted-quad Host [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.168:49724 -> 103.232.55.148:80
+09/14/2021-14:35:33.648704  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49724
+09/14/2021-14:35:33.648704  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 103.232.55.148:80 -> 10.0.0.168:49724
+09/14/2021-14:35:38.324261  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 103.232.55.148:80 -> 10.0.0.168:49724
+09/14/2021-14:36:44.636476  [**] [1:2021641:9] ET MALWARE LokiBot User-Agent (Charon/Inferno) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.168:49743 -> 136.243.159.53:80
+09/14/2021-14:36:44.636476  [**] [1:2025381:7] ET MALWARE LokiBot Checkin [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.0.0.168:49743 -> 136.243.159.53:80
+09/14/2021-14:36:44.945415  [**] [1:2024312:4] ET MALWARE LokiBot Application/Credential Data Exfiltration Detected M1 [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.168:49743 -> 136.243.159.53:80
+09/14/2021-14:36:44.945415  [**] [1:50300004:0] Possible SQL Injection attack (Contains singlequote POST DATA) [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.168:49743 -> 136.243.159.53:80
+09/14/2021-14:36:45.202353  [**] [1:2021641:9] ET MALWARE LokiBot User-Agent (Charon/Inferno) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.168:49744 -> 136.243.159.53:80
+09/14/2021-14:36:45.202353  [**] [1:2025381:7] ET MALWARE LokiBot Checkin [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.0.0.168:49744 -> 136.243.159.53:80
+09/14/2021-14:36:45.558744  [**] [1:2024312:4] ET MALWARE LokiBot Application/Credential Data Exfiltration Detected M1 [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.168:49744 -> 136.243.159.53:80
+09/14/2021-14:36:45.558744  [**] [1:50300004:0] Possible SQL Injection attack (Contains singlequote POST DATA) [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.168:49744 -> 136.243.159.53:80
+09/14/2021-14:36:45.697619  [**] [1:2021641:9] ET MALWARE LokiBot User-Agent (Charon/Inferno) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.168:49745 -> 136.243.159.53:80
+09/14/2021-14:36:45.697619  [**] [1:2025381:7] ET MALWARE LokiBot Checkin [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.0.0.168:49745 -> 136.243.159.53:80
+09/14/2021-14:36:46.007109  [**] [1:2024313:5] ET MALWARE LokiBot Request for C2 Commands Detected M1 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.0.0.168:49745 -> 136.243.159.53:80
+09/14/2021-14:36:46.007109  [**] [1:2024318:6] ET MALWARE LokiBot Request for C2 Commands Detected M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.0.0.168:49745 -> 136.243.159.53:80
+08/19/2021-23:18:37.868454  [**] [1:2023883:4] ET DNS Query to a *.top domain - Likely Hostile [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.7.0.31:49867 -> 8.8.8.8:53
+08/19/2021-23:18:42.309863  [**] [1:2022896:7] ET HUNTING SUSPICIOUS Firesale gTLD EXE DL with no Referer June 13 2016 [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.7.0.31:63050 -> 194.87.236.205:80
+08/19/2021-23:18:42.309863  [**] [1:2023882:5] ET INFO HTTP Request to a *.top domain [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.7.0.31:63050 -> 194.87.236.205:80
+08/19/2021-23:18:53.087892  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.7.0.31:63052 -> 13.107.5.80:80
+08/19/2021-23:18:53.682910  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.7.0.31:63056 -> 194.87.236.205:80
+08/19/2021-23:18:56.312815  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 194.87.236.205:80 -> 10.7.0.31:63057
+08/19/2021-23:18:56.312815  [**] [1:2023464:4] ET HUNTING Possible EXE Download From Suspicious TLD [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.7.0.31:63057
+08/19/2021-23:18:56.312815  [**] [1:2014819:5] ET INFO Packed Executable Download [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.7.0.31:63057
+08/19/2021-23:00:34.355613  [**] [1:2023883:4] ET DNS Query to a *.top domain - Likely Hostile [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.10.0.33:61276 -> 8.8.8.8:53
+08/19/2021-23:00:38.706902  [**] [1:2023882:5] ET INFO HTTP Request to a *.top domain [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.33:53462 -> 194.87.236.205:80
+08/19/2021-23:01:32.495534  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53482 -> 13.107.5.80:80
+08/19/2021-23:01:33.896020  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53482 -> 13.107.5.80:80
+08/19/2021-23:01:33.957102  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:34.114120  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:35.780362  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:36.166961  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:42.252199  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:44.456446  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.33:53481 -> 13.107.5.80:80
+08/19/2021-23:01:48.426041  [**] [1:2221010:1] SURICATA HTTP unable to match response to request [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53463
+08/19/2021-23:01:48.481155  [**] [1:2023882:5] ET INFO HTTP Request to a *.top domain [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.33:53492 -> 194.87.236.205:80
+08/19/2021-23:01:48.604168  [**] [1:50200001:1] Attempt to access /bin* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.10.0.33:53494 -> 194.87.236.205:80
+08/19/2021-23:01:48.732701  [**] [1:2221010:1] SURICATA HTTP unable to match response to request [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53472
+08/19/2021-23:02:03.238568  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 194.87.236.205:80 -> 10.10.0.33:53497
+08/19/2021-23:02:03.238568  [**] [1:2023464:4] ET HUNTING Possible EXE Download From Suspicious TLD [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53497
+08/19/2021-23:02:03.238568  [**] [1:2014819:5] ET INFO Packed Executable Download [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53497
+08/19/2021-23:02:24.393018  [**] [1:2221010:1] SURICATA HTTP unable to match response to request [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53495
+09/20/2021-11:45:39.064800  [**] [1:2033939:8] ET MALWARE SQUIRRELWAFFLE Loader Activity (POST) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.147:49680 -> 192.185.39.58:80
+09/20/2021-11:46:03.758107  [**] [1:2033939:8] ET MALWARE SQUIRRELWAFFLE Loader Activity (POST) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.147:49681 -> 50.31.174.199:80
+09/20/2021-11:46:52.866473  [**] [1:2033939:8] ET MALWARE SQUIRRELWAFFLE Loader Activity (POST) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.147:49689 -> 50.31.174.199:80
+09/20/2021-11:47:17.452816  [**] [1:2033939:8] ET MALWARE SQUIRRELWAFFLE Loader Activity (POST) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.147:49690 -> 50.31.174.199:80
+09/20/2021-11:47:42.054156  [**] [1:2033939:8] ET MALWARE SQUIRRELWAFFLE Loader Activity (POST) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.147:49691 -> 50.31.174.199:80
+09/20/2021-13:16:29.275892  [**] [1:2033993:2] ET MALWARE Observed Malicious SSL Cert (Cobalt Strike) [**] [Classification: Domain Observed Used for C2 Detected] [Priority: 1] {TCP} 213.227.154.92:443 -> 10.7.0.32:57719
+09/20/2021-13:16:31.001602  [**] [1:2033993:2] ET MALWARE Observed Malicious SSL Cert (Cobalt Strike) [**] [Classification: Domain Observed Used for C2 Detected] [Priority: 1] {TCP} 213.227.154.92:443 -> 10.7.0.32:57724
+09/20/2021-13:17:02.601141  [**] [1:2033993:2] ET MALWARE Observed Malicious SSL Cert (Cobalt Strike) [**] [Classification: Domain Observed Used for C2 Detected] [Priority: 1] {TCP} 213.227.154.92:443 -> 10.7.0.32:57727
+09/20/2021-13:17:41.481024  [**] [1:2033993:2] ET MALWARE Observed Malicious SSL Cert (Cobalt Strike) [**] [Classification: Domain Observed Used for C2 Detected] [Priority: 1] {TCP} 213.227.154.92:443 -> 10.7.0.32:57728
+09/20/2021-13:18:15.209584  [**] [1:2033993:2] ET MALWARE Observed Malicious SSL Cert (Cobalt Strike) [**] [Classification: Domain Observed Used for C2 Detected] [Priority: 1] {TCP} 213.227.154.92:443 -> 10.7.0.32:57729
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53546 -> 172.67.187.204:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63359 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63366 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63437 -> 160.153.136.3:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65199 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63428 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63406 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63408 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63378 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63399 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63422 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53537 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63374 -> 5.2.87.161:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63356 -> 160.153.136.3:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62447 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65168 -> 199.34.228.189:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63429 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65181 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63379 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63430 -> 5.2.87.161:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.217.168.211:80 -> 10.10.0.41:63401
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65186 -> 74.208.236.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63420 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65143
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65130 -> 160.153.136.3:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65209 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63439 -> 99.83.154.118:80
+01/01/1970-00:00:00.000000  [**] [1:2033982:3] ET MALWARE SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49688
+01/01/1970-00:00:00.000000  [**] [1:2033984:3] ET MALWARE Possible SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49688
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49688
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62442 -> 172.217.168.211:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63361 -> 5.2.87.161:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53586 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63435 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63440 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62453 -> 155.159.218.80:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63390 -> 99.83.154.118:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53564 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63349 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53542 -> 35.214.181.99:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63418 -> 5.2.87.161:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53584 -> 162.0.223.226:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63357 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63357 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+01/01/1970-00:00:00.000000  [**] [1:50200010:1] Attempt to access /boot* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 162.214.80.85:80 -> 10.10.0.32:62434
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53543 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63362 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62446 -> 166.62.10.223:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63394 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63414 -> 99.83.154.118:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53524 -> 172.67.187.204:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53566 -> 204.11.56.48:80
+01/01/1970-00:00:00.000000  [**] [1:2033982:3] ET MALWARE SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49689
+01/01/1970-00:00:00.000000  [**] [1:2033984:3] ET MALWARE Possible SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49689
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49689
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65166 -> 74.208.236.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62435 -> 35.209.90.116:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63432 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65194 -> 208.91.197.13:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63436 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65189
+01/01/1970-00:00:00.000000  [**] [1:2033982:3] ET MALWARE SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49681
+01/01/1970-00:00:00.000000  [**] [1:2033984:3] ET MALWARE Possible SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49681
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49681
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63375 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53533 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63368 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63368 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65213
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63370 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63427 -> 99.83.154.118:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63419 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63434 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53565 -> 204.11.56.48:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63423 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53525 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62445 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63402 -> 172.217.168.211:80
+01/01/1970-00:00:00.000000  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 204.11.56.48:80 -> 10.10.0.33:53528
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62450 -> 35.209.90.116:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65173 -> 49.156.179.85:80
+01/01/1970-00:00:00.000000  [**] [1:2031088:4] ET HUNTING Request to .XYZ Domain with Minimal Headers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65173 -> 49.156.179.85:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63388 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63388 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65188 -> 199.34.228.189:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63403 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62433 -> 192.0.78.134:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63410 -> 160.153.136.3:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62437 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53582 -> 172.67.187.204:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63350 -> 5.2.87.161:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65151 -> 162.0.219.212:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63351 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65176 -> 217.160.0.2:80
+01/01/1970-00:00:00.000000  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 185.230.60.177:80 -> 10.10.0.32:62441
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 185.230.60.177:80 -> 10.10.0.32:62441
+01/01/1970-00:00:00.000000  [**] [1:50200011:1] Attempt to access /lib* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.230.60.177:80 -> 10.10.0.32:62441
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63431 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62440 -> 155.159.218.80:80
+01/01/1970-00:00:00.000000  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+01/01/1970-00:00:00.000000  [**] [1:50200010:1] Attempt to access /boot* [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 162.214.80.85:80 -> 10.10.0.32:62449
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65174 -> 208.91.197.13:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63412 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63412 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63373 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63376 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 5.2.87.161:80 -> 10.10.0.41:63395
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63417 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63424 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62452 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53581 -> 172.67.187.204:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63367 -> 160.153.136.3:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63392 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63352 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:2033982:3] ET MALWARE SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49691
+01/01/1970-00:00:00.000000  [**] [1:2033984:3] ET MALWARE Possible SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49691
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49691
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65175 -> 208.91.197.13:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53532 -> 35.214.181.99:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63400 -> 209.99.40.222:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65169
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63354 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63438 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.0.41:63438 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63421 -> 172.217.168.211:80
+01/01/1970-00:00:00.000000  [**] [1:2031413:4] ET MALWARE FormBook CnC Checkin (POST) M2 [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65196 -> 217.160.0.2:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65162
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63360 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.32:62448 -> 192.0.78.134:80
+01/01/1970-00:00:00.000000  [**] [1:2033982:3] ET MALWARE SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49690
+01/01/1970-00:00:00.000000  [**] [1:2033984:3] ET MALWARE Possible SQUIRRELWAFFLE Server Response [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49690
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 50.31.174.199:80 -> 10.0.0.147:49690
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65134
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63398 -> 54.185.178.6:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65137 -> 208.91.197.13:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63365 -> 184.168.131.241:80
+01/01/1970-00:00:00.000000  [**] [1:2221010:1] SURICATA HTTP unable to match response to request [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 194.87.236.205:80 -> 10.10.0.33:53498
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63355 -> 34.102.136.180:80
+01/01/1970-00:00:00.000000  [**] [1:50100001:1] Possible XSS attack, script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62436
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 157.7.107.89:80 -> 10.10.0.32:62436
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.33:53574 -> 35.214.181.99:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63364 -> 172.217.168.211:80
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.41:63433 -> 172.217.168.211:80
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 85.233.160.24:80 -> 10.10.0.10:65182
+01/01/1970-00:00:00.000000  [**] [1:50100002:1] Possible XSS attack, js event handler [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 199.34.228.189:80 -> 10.10.0.10:65203
+01/01/1970-00:00:00.000000  [**] [1:2031412:12] ET MALWARE FormBook CnC Checkin (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.10.0.10:65136 -> 49.156.179.85:80
+01/01/1970-00:00:00.000000  [**] [1:2031088:4] ET HUNTING Request to .XYZ Domain with Minimal Headers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.0.10:65136 -> 49.156.179.85:80
