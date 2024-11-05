@@ -5,6 +5,7 @@ from wahzu_classifier.wahzu_classifier import wahzu_classifier
 from surikata_classifier.surikata_classifier import surikata_classifier
 from smtp_classifier.smtp_classifier import smtp_classifier
 #from system_classifier.system_classifier import system_classifier
+from pdf_maker import syntax_to_pdf
 from llm.llm_client import generate_text
 import pandas as pd
 from rich.console import Console
@@ -16,6 +17,7 @@ import numpy as np
 import warnings
 import sys
 import os
+from datetime import datetime
 
 # Redirect warnings to null
 warnings.simplefilter("ignore")
@@ -156,10 +158,10 @@ def trigger():
     print("Analysis completed")
 
     print("Generating report")
-    markup_report = markup_report_llm(report=report)
+    markup_report_timestamp = markup_report_llm(report=report)
     print("Report generated")
 
-    report_generator(markup_report=markup_report)
+    report_generator(timestamp=markup_report_timestamp)
 
     print("Trigger function called")
 
@@ -325,13 +327,23 @@ def markup_report_llm(report):
     input_text = prompt + report
     # Output syntax doc
     markup_report = generate_text(input_text=input_text)
-    return markup_report
 
-def report_generator(markup_report):
+    # Get the current time and format it as a string
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Save markup report to 'test.adoc'
+    with open(f'report/report_{timestamp}.adoc', 'w') as file:
+        file.write(markup_report)
+
+    return timestamp
+
+def report_generator(timestamp):
     print("Report Generation function called")
     # Compile the syntax to make a report and downloadable in pdf format
-    # Auto downloads the report to the user's system
-    print(markup_report)
+
+    syntax_to_pdf(timestamp=timestamp)
+
+    print("Report generated successfully")
 
 
 if __name__ == "__main__":

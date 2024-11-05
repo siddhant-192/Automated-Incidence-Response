@@ -14,10 +14,8 @@ def generate_text(input_text, url="http://localhost:5010/generate"):
     """
     data = {
         "input_text": input_text,
-        "max_tokens": 100,
+        "max_tokens": 30000,
     }
-    print(input_text)
-    print("Sending request to server")
     
     try:
         # Send the POST request to the server with streaming enabled
