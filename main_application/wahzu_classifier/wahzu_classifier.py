@@ -36,7 +36,7 @@ class FinalBestModel(nn.Module):
 
 # Load the model weights and set to evaluation mode
 model = FinalBestModel(input_dim=192, output_dim=2, hidden_dim1=192, hidden_dim2=32, dropout_rate=0.32)
-model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
+model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu'), weights_only=True))
 model.eval()
 
 # Define the classifier function
