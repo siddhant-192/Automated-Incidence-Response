@@ -1,9 +1,12 @@
-import json
+import pandas as pd
 
-def surikata_classifier(surikata_logs):
+def surikata_classifier(surikata_df):
     flagged_logs = []
-    for log in surikata_logs:
-        if "ssh" in log:
-            flagged_logs.append(log)
+    
+    # Iterate over each row in the DataFrame
+    for _, row in surikata_df.iterrows():
+        # Check if "ssh" is in any of the values in the row
+        if any("ssh" in str(value) for value in row):
+            flagged_logs.append(row.to_dict())  # Convert row to a dictionary and add to flagged list
     
     return flagged_logs

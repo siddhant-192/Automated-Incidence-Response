@@ -42,7 +42,7 @@ model.eval()
 # Define the classifier function
 def wahzu_classifier(wahzu_logs):
     # Convert logs to DataFrame
-    classify_df = pd.DataFrame(wahzu_logs)
+    #classify_df = pd.DataFrame(wahzu_logs)
 
     # Replace empty strings with NaN
     classify_df.replace(' ', np.nan, inplace=True)
