@@ -13,6 +13,19 @@ import time
 import random
 from PIL import Image
 import numpy as np
+import warnings
+import sys
+import os
+
+# Redirect warnings to null
+warnings.simplefilter("ignore")
+sys.stderr = open(os.devnull, "w")
+
+# Load or run code that generates warnings here
+# e.g., model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
+
+# Reset stderr to default after loading
+sys.stderr = sys.__stderr__
 
 def initialisation_hackore():
     console = Console()
@@ -108,9 +121,9 @@ def initialisation_hackore():
     # Display hacker-style messages with special colors for the last three messages
     display_hacker_messages(hacker_messages)
 
-    # Prompt the user to press Enter to continue
-    console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
-    input()
+    # # Prompt the user to press Enter to continue
+    # console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
+    # input()
 
 
     
