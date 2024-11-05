@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import os
 import sys
+from dotenv import load_dotenv
 
 # Initialize Flask app
 app = Flask(__name__)

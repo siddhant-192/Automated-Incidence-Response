@@ -4,7 +4,7 @@
 from wahzu_classifier.wahzu_classifier import wahzu_classifier
 from surikata_classifier.surikata_classifier import surikata_classifier
 from smtp_classifier.smtp_classifier import smtp_classifier
-from system_classifier.system_classifier import system_classifier
+#from system_classifier.system_classifier import system_classifier
 from llm.llm_client import generate_text
 import pandas as pd
 from rich.console import Console
@@ -122,8 +122,8 @@ def initialisation_hackore():
     display_hacker_messages(hacker_messages)
 
     # Prompt the user to press Enter to continue
-    console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
-    input()
+    # console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
+    # input()
 
 
 
@@ -132,22 +132,32 @@ def initialisation_hackore():
 def trigger():
     # All the logs will be retrieved from the multiple sources (Wahzu, Surikata, SMTP, System)
     # WAHZU LOGS
-    wahzu_logs = pd.read_csv('wahzu_logs.csv') # logs from Wahzu
+    wahzu_logs = pd.read_csv('wahzu_test.csv') # logs from Wahzu
+    print("Waazu logs loaded")
 
     # SURIKATA LOGS
-    surikata_logs = pd.read_csv('surikata_logs.csv') # logs from Surikata
+    surikata_logs = pd.read_csv('surikata_test.csv') # logs from Surikata
+    print("Surikata logs loaded")
 
     # SMTP LOGS
-    smtp_logs = pd.read_csv('smtp_logs.csv') # logs from SMTP server
+    smtp_logs = pd.read_csv('smtp_test.csv') # logs from SMTP server
+    print("SMTP logs loaded")
 
     # SYSTEM LOGS
     #system_logs = [] # logs from the system
 
-    flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs) #system_logs=system_logs)
+    print("Classification initaited")
+    flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs) #system_logs=system_logs
+    print("Classification completed")
 
+    print("Analysing flagged logs")
     report = analyst_llm(flags=flagged_logs)
+    print(report)
+    print("Analysis completed")
 
+    print("Generating report")
     markup_report = markup_report_llm(report=report)
+    print("Report generated")
 
     report_generator(markup_report=markup_report)
 
@@ -258,7 +268,9 @@ def analyst_llm(flags):
     Flagged Logs:
     """
 
-    input_text = prompt + " ".join(flags.values())
+    # Convert each log list to a string
+    logs_text = "\n".join([" ".join(map(str, flag)) if isinstance(flag, list) else str(flag) for flag in flags.values()])
+    input_text = prompt + logs_text
 
     # Output report
     report = generate_text(input_text=input_text)
@@ -319,7 +331,9 @@ def report_generator(markup_report):
     print("Report Generation function called")
     # Compile the syntax to make a report and downloadable in pdf format
     # Auto downloads the report to the user's system
+    print(markup_report)
 
 
 if __name__ == "__main__":
-    initialisation_hackore()
+    #initialisation_hackore()
+    trigger()

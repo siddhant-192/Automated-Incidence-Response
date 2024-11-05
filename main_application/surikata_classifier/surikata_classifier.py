@@ -1,6 +1,7 @@
 import pandas as pd
 
-def surikata_classifier(surikata_df):
+def surikata_classifier(surikata_logs):
+    surikata_df = surikata_logs
     flagged_logs = []
     
     # Iterate over each row in the DataFrame

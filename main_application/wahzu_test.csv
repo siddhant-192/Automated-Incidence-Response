@@ -1,0 +1,236 @@
+_id,_version,_score,_source.agent.ip,_source.agent.name,_source.agent.id,_source.manager.name,_source.data.win.eventdata.addressLength,_source.data.win.eventdata.clientPID,_source.data.win.eventdata.address,_source.data.win.eventdata.queryName,_source.data.win.system.eventID,_source.data.win.system.keywords,_source.data.win.system.providerGuid,_source.data.win.system.level,_source.data.win.system.channel,_source.data.win.system.opcode,_source.data.win.system.message,_source.data.win.system.version,_source.data.win.system.systemTime,_source.data.win.system.eventRecordID,_source.data.win.system.threadID,_source.data.win.system.computer,_source.data.win.system.task,_source.data.win.system.processID,_source.data.win.system.severityValue,_source.data.win.system.providerName,_source.rule.firedtimes,_source.rule.mail,_source.rule.level,_source.rule.description,_source.rule.groups,_source.rule.id,_source.decoder.name,_source.input.type,_source.@timestamp,_source.location,_source.id,_source.timestamp,_source.data.win.eventdata.subjectLogonId,_source.data.win.eventdata.subjectDomainName,_source.data.win.eventdata.targetLinkedLogonId,_source.data.win.eventdata.impersonationLevel,_source.data.win.eventdata.authenticationPackageName,_source.data.win.eventdata.targetLogonId,_source.data.win.eventdata.logonProcessName,_source.data.win.eventdata.logonGuid,_source.data.win.eventdata.targetUserName,_source.data.win.eventdata.keyLength,_source.data.win.eventdata.elevatedToken,_source.data.win.eventdata.subjectUserSid,_source.data.win.eventdata.processId,_source.data.win.eventdata.processName,_source.data.win.eventdata.targetDomainName,_source.data.win.eventdata.targetUserSid,_source.data.win.eventdata.virtualAccount,_source.data.win.eventdata.logonType,_source.data.win.eventdata.subjectUserName,_source.rule.hipaa,_source.rule.pci_dss,_source.rule.tsc,_source.rule.nist_800_53,_source.rule.gdpr,_source.rule.mitre.technique,_source.rule.mitre.id,_source.rule.mitre.tactic,_source.rule.gpg13,_source.data.dpkg_status,_source.data.package,_source.data.arch,_source.data.version,_source.full_log,_source.data.sca.scan_id,_source.data.sca.check.result,_source.data.sca.check.remediation,_source.data.sca.check.compliance.pci_dss,_source.data.sca.check.compliance.tsc,_source.data.sca.check.compliance.cis_csc,_source.data.sca.check.compliance.cis,_source.data.sca.check.description,_source.data.sca.check.id,_source.data.sca.check.title,_source.data.sca.check.rationale,_source.data.sca.check.command,_source.data.sca.type,_source.data.sca.policy,_source.rule.cis_csc,_source.rule.cis,_source.data.sca.check.references,_source.data.sca.check.compliance.nist_800_53,_source.data.sca.check.reason,_source.data.sca.check.file,_source.data.sca.check.compliance.hipaa,_source.data.sca.check.compliance.gdpr_IV,_source.data.sca.check.compliance.gpg_13,_source.rule.gdpr_IV,_source.rule.gpg_13,_source.data.sca.check.directory,_source.predecoder.hostname,_source.predecoder.program_name,_source.predecoder.timestamp,_source.data.uid,_source.data.dstuser,_source.decoder.parent,_source.previous_output,_source.previous_log,_source.data.sca.check.registry,_source.data.sca.check.compliance.gpg13,_source.data.win.eventdata.param3,_source.data.win.eventdata.param4,_source.data.win.eventdata.param1,_source.data.win.eventdata.param2,_source.data.win.system.eventSourceName,_source.rule.info,_source.data.srcip,_source.data.srcport,_source.data.win.eventdata.binary,_source.data.sca.score,_source.data.sca.total_checks,_source.data.sca.file,_source.data.sca.policy_id,_source.data.sca.invalid,_source.data.sca.description,_source.data.sca.passed,_source.data.sca.failed,_source.data.extra_data,_source.syscheck.mode,_source.syscheck.path,_source.syscheck.value_type,_source.syscheck.sha1_after,_source.syscheck.size_after,_source.syscheck.arch,_source.syscheck.event,_source.syscheck.md5_after,_source.syscheck.sha256_after,_source.syscheck.value_name,_source.syscheck.md5_before,_source.syscheck.sha256_before,_source.syscheck.changed_attributes,_source.syscheck.sha1_before,_source.syscheck.uname_after,_source.syscheck.gname_after,_source.syscheck.mtime_after,_source.syscheck.uid_after,_source.syscheck.gid_after,_source.syscheck.win_perm_after,_source.syscheck.mtime_before,_source.data.id,_source.syscheck.gid_before,_source.data.win.eventdata.data,_source.data.srcuser,_source.data.win.eventdata.p1,_source.data.win.eventdata.p2,_source.data.win.eventdata.rechecking,_source.data.win.eventdata.p3,_source.data.win.eventdata.attachedFiles,_source.data.win.eventdata.p4,_source.data.win.eventdata.reportId,_source.data.win.eventdata.p5,_source.data.win.eventdata.p6,_source.data.win.eventdata.reportStatus,_source.data.win.eventdata.bucket,_source.data.win.eventdata.storePath,_source.data.win.eventdata.bucketType,_source.data.win.eventdata.hashedBucket,_source.data.win.eventdata.response,_source.data.win.eventdata.eventName,_source.data.win.eventdata.cabGuid,_source.data.win.eventdata.cabId,_source.data.win.eventdata.serviceType,_source.data.win.eventdata.accountName,_source.data.win.eventdata.imagePath,_source.data.win.eventdata.startType,_source.data.win.eventdata.serviceName,_source.data.win.eventdata.ipAddress,_source.data.win.eventdata.workstationName,_source.data.win.eventdata.subStatus,_source.data.win.eventdata.ipPort,_source.data.win.eventdata.failureReason,_source.data.win.eventdata.status,_source.data.win.eventdata.extraInfo,_source.data.vulnerability.reference,_source.data.vulnerability.severity,_source.data.vulnerability.cve,_source.data.vulnerability.package.name,_source.data.vulnerability.package.version,_source.data.vulnerability.package.architecture,_source.data.vulnerability.published,_source.data.vulnerability.enumeration,_source.data.vulnerability.title,_source.data.vulnerability.type,_source.data.vulnerability.cvss.cvss3.base_score,_source.data.vulnerability.updated,_source.data.vulnerability.status,_source.data.gid,_source.data.tty,_source.data.pwd,_source.data.command,_source.decoder.ftscomment,_source.data.win.eventdata.updateRevisionNumber,_source.data.win.eventdata.updateGuid,_source.data.win.eventdata.serviceGuid,_source.data.win.eventdata.errorCode,_source.data.win.eventdata.updateTitle,_source.data.win.eventdata.messageText,_source.data.win.eventdata.method,_source.data.win.eventdata.stage,_source.data.win.eventdata.context,_source.data.win.eventdata.url,_source.data.shell,_source.data.home,_source.data.win.eventdata.previousTime,_source.data.win.eventdata.newTime,_source.data.win.eventdata.originalFileName,_source.data.win.eventdata.image,_source.data.win.eventdata.description,_source.data.win.eventdata.parentCommandLine,_source.data.win.eventdata.parentImage,_source.data.win.eventdata.commandLine,_source.data.win.eventdata.integrityLevel,_source.data.win.eventdata.user,_source.data.win.eventdata.targetFilename,_source.data.win.eventdata.appName,_source.data.win.eventdata.moduleName,_source.data.win.eventdata.appPath,_index,_source.data.win.eventdata.product,_source.data.win.eventdata.parentProcessGuid,_source.data.win.eventdata.processGuid,_source.data.win.eventdata.logonId,_source.data.win.eventdata.parentProcessId,_source.data.win.eventdata.currentDirectory,_source.data.win.eventdata.utcTime,_source.data.win.eventdata.hashes,_source.data.win.eventdata.company,_source.data.win.eventdata.fileVersion,_source.data.win.eventdata.terminalSessionId,_source.data.win.eventdata.parentUser,_source.data.win.eventdata.hResult,_source.data.win.eventdata.creationUtcTime,_source.data.win.eventdata.ruleName,_source.data.win.eventdata.destinationPort,_source.data.win.eventdata.sourcePort,_source.data.win.eventdata.initiated,_source.data.win.eventdata.destinationIp,_source.data.win.eventdata.protocol,_source.data.win.eventdata.sourceIp,_source.data.win.eventdata.sourceHostname,_source.data.win.eventdata.destinationPortName,_source.data.win.eventdata.destinationIsIpv6,_source.data.win.eventdata.destinationHostname,_source.data.win.eventdata.sourceIsIpv6,_source.data.win.eventdata.appVersion,_source.data.win.eventdata.appTimeStamp,_source.data.win.eventdata.processCreationTime,_source.data.win.eventdata.moduleTimeStamp,_source.data.win.eventdata.modulePath,_source.data.win.eventdata.moduleVersion,_source.data.win.eventdata.faultingOffset,_source.data.win.eventdata.integratorReportId,_source.data.win.eventdata.exceptionCode,_source.data.win.eventdata.lmPackageName,_source.data.win.eventdata.p7,_source.data.win.eventdata.p8,_source.data.win.eventdata.p9,_source.data.origin.module,_source.data.parameters.extra_args,_source.data.parameters.program,_source.rule.frequency,_source.data.win.eventdata.targetObject,_source.data.win.eventdata.details,_source.data.win.eventdata.eventType,_source.data.win.eventdata.param5
+GEmCwJEBz5Sj0MnmNKg4,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,2,False,5,Registry Key Integrity Checksum Changed,"[""ossec"",""syscheck"",""syscheck_entry_modified"",""syscheck_registry""]",594,syscheck_registry_key_modified,log,"Sep 5, 2024 @ 04:47:21.535",syscheck,1725511642.0,"Sep 5, 2024 @ 04:47:21.535", , , , , , , , , , , , , , , , , , , ,"[""164.312.c.1"",""164.312.c.2""]","[""11.5""]","[""PI1.4"",""PI1.5"",""CC6.1"",""CC6.8"",""CC7.2"",""CC7.3""]","[""SI.7""]","[""II_5.1.f""]","[""Stored Data Manipulation"",""Modify Registry""]","[""T1565.001"",""T1112""]","[""Impact"",""Defense Evasion""]","[""4.13""]", , , , ,"Registry Key '[x32] HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS' modified
+Mode: scheduled
+Changed attributes: mtime
+Old modification time was: '1725306694', now it is '1725511603'
+", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,scheduled,HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS, , , ,[x32],modified, , , , , ,"[""mtime""]", ,SYSTEM,SYSTEM,2024-09-04T21:46:43,S-1-5-18,S-1-5-18,"[{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""Users""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""Administrators""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""SYSTEM""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""CREATOR OWNER""},{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""ALL APPLICATION PACKAGES""},{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681""}]",2024-09-02T12:51:34, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6klkwZEBz5Sj0Mnm0anm,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,49,False,3,The CVE-2024-21361 that affected Microsoft Windows 11 Pro was solved due to a package removal/update or a system upgrade,"[""vulnerability-detector""]",23502,json,log,"Sep 5, 2024 @ 08:54:50.125",vulnerability-detector,1725526490.48555,"Sep 5, 2024 @ 08:54:50.125", , , , , , , , , , , , , , , , , , , , ,"[""11.2.1"",""11.2.3""]","[""CC7.1"",""CC7.2""]", ,"[""IV_35.7.d""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21361,High,CVE-2024-21361,Microsoft Windows 11 Pro,10.0.22631.4037,x86_64,2024-02-13T18:15:53Z,CVE,CVE-2024-21361 affecting Microsoft Windows 11 Pro was solved,Packages,8.8,2024-05-29T00:15:28Z,Solved, , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZElctJEBz5Sj0Mnmjqed,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,85,False,3,CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0: Ensure 'Turn on convenience PIN sign-in' is set to 'Disabled'.,"[""sca""]",19008,sca,log,"Sep 2, 2024 @ 20:10:48.830",sca,1725307848.152863,"Sep 2, 2024 @ 20:10:48.830", , , , , , , , , , , , , , , , , , , , ,"[""2.2"",""8.2""]","[""CC7.1"",""CC7.2"",""CC6.1""]","[""CM.1""]","[""IV_35.7.d""]", , , , , , , , , ,1411927070,passed,"To establish the recommended configuration via GP, set the following UI path to Disabled: Computer Configuration\Policies\Administrative Templates\System\Logon\Turn on convenience PIN sign-in. Note: This Group Policy path may not exist by default. It is provided by the Group Policy template CredentialProviders.admx/adml that is included with the Microsoft Windows 8.0 & Server 2012 (non-R2) Administrative Templates (or newer). Note #2: In older Microsoft Windows Administrative Templates, this setting was initially named Turn on PIN sign-in, but it was renamed starting with the Windows 10 Release 1511 Administrative Templates.",8.2,CC6.1, ,18.8.28.7,"This policy setting allows you to control whether a domain user can sign in using a convenience PIN. In Windows 10, convenience PIN was replaced with Passport, which has stronger security properties. To configure Passport for domain users, use the policies under Computer Configuration\Administrative Templates\Windows Components\Microsoft Passport for Work. Note: The user's domain password will be cached in the system vault when using this feature. The recommended state for this setting is: Disabled.",26261,Ensure 'Turn on convenience PIN sign-in' is set to 'Disabled'.,"A PIN is created from a much smaller selection of characters than a password, so in most cases a PIN will be much less robust than a password.", ,check,CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0, ,"[""18.8.28.7""]", , , , , , , , , , , , , , , , , , ,"[""HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rkmBwZEBz5Sj0Mnm36qk,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,1,False,3,Wazuh agent disconnected.,"[""ossec""]",504,ossec,log,"Sep 5, 2024 @ 09:26:35.646",wazuh-monitord,1725528395.907497,"Sep 5, 2024 @ 09:26:35.646", , , , , , , , , , , , , , , , , , , ,"[""164.312.b""]","[""10.6.1"",""10.2.6""]","[""CC7.2"",""CC7.3"",""CC6.8""]","[""AU.6"",""AU.14"",""AU.5""]","[""IV_35.7.d""]","[""Disable or Modify Tools""]","[""T1562.001""]","[""Defense Evasion""]","[""10.1""]", , , , ,ossec: Agent disconnected: 'Windows-any'., , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90m1wJEBz5Sj0MnmZaiw,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2ec
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-09-05T05:43:07.8446018Z,2226,10332,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,6,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,windows_eventchannel,log,"Sep 5, 2024 @ 05:43:08.706",EventChannel,1725514988.426026,"Sep 5, 2024 @ 05:43:08.706",0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x2ec,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$,"[""164.312.b""]","[""10.2.5""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""IV_32.2""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]","[""7.1"",""7.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eEllwZEBz5Sj0MnmM6qK,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2dc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-09-05T08:55:17.2179432Z,16803,1068,test,12544,768,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,27,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,windows_eventchannel,log,"Sep 5, 2024 @ 08:55:18.728",EventChannel,1725526518.682575,"Sep 5, 2024 @ 08:55:18.728",0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x2dc,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$,"[""164.312.b""]","[""10.2.5""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""IV_32.2""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]","[""7.1"",""7.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+akk1wpEBz5Sj0Mnmpq9f,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-09-05 12:42:53.570
+ProcessGuid: {d186f312-a74d-66d9-a708-000000000a00}
+ProcessId: 2096
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.22621.3085 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {$DirectorySearcher = New-Object System.DirectoryServices.DirectorySearcher(\""""(ObjectCategory=Computer)\"""")
+$DirectorySearcher.PropertiesToLoad.Add(\""""Name\"""")
+$Computers = $DirectorySearcher.findall()
+foreach ($Computer in $Computers) {
+  $Computer = $Computer.Properties.name
+  if (!$Computer) { Continue }
+  Write-Host $Computer}}
+CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+User: test\Admin
+LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
+LogonId: 0x74F6B
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=9D8E30DAF21108092D5980C931876B7E,SHA256=3247BCFD60F6DD25F34CB74B5889AB10EF1B3EC72B4D4B3D95B5B25B534560B8,IMPHASH=AFACF6DC9041114B198160AAB4D0AE77
+ParentProcessGuid: {d186f312-a4b4-66d9-5004-000000000a00}
+ParentProcessId: 3324
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -EP bYPASS
+ParentUser: test\Admin""",5,2024-09-05T12:42:53.5711781Z,18561,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,24,False,4,Powershell process spawned powershell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92027,windows_eventchannel,log,"Sep 5, 2024 @ 12:43:00.366",EventChannel,1725540180.7237732,"Sep 5, 2024 @ 12:43:00.366", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,2096, , , , , , , , , , , ,"[""PowerShell""]","[""T1059.001""]","[""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,PowerShell.EXE,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,Windows PowerShell,"\""C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"" -EP bYPASS",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,"\""powershell.exe\"" &amp; {$DirectorySearcher = New-Object System.DirectoryServices.DirectorySearcher(\\\""\""(ObjectCategory=Computer)\\\""\"") $DirectorySearcher.PropertiesToLoad.Add(\\\""\""Name\\\""\"") $Computers = $DirectorySearcher.findall() foreach ($Computer in $Computers) {   $Computer = $Computer.Properties.name   if (!$Computer) { Continue }   Write-Host $Computer}}",Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-a4b4-66d9-5004-000000000a00},{d186f312-a74d-66d9-a708-000000000a00},0x74f6b,3324,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 12:42:53.570,"MD5=9D8E30DAF21108092D5980C931876B7E,SHA256=3247BCFD60F6DD25F34CB74B5889AB10EF1B3EC72B4D4B3D95B5B25B534560B8,IMPHASH=AFACF6DC9041114B198160AAB4D0AE77",Microsoft Corporation,10.0.22621.3085 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+40mIwpEBz5Sj0Mnm5bcF,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-09-05 14:13:54.701
+ProcessGuid: {d186f312-bca2-66d9-8615-000000000a00}
+ProcessId: 12780
+Image: C:\Windows\System32\tasklist.exe
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+Description: Lists the current running tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: tasklist.exe
+CommandLine: tasklist.exe  
+CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+User: test\Admin
+LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
+LogonId: 0x74F6B
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=3D705BA430E4E045884234A98B3388CF,SHA256=C54FDD83D88404A62EB945B862E13979481526D2AF7A97ABC92C50ECD06D4F70,IMPHASH=FCEA32ABE79C10DFACC88F5335DD89DE
+ParentProcessGuid: {d186f312-bc9f-66d9-7a15-000000000a00}
+ParentProcessId: 10844
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c netsh.exe advfirewall  show allprofiles  & netsh.exe advfirewall firewall dump & netsh.exe advfirewall show currentprofile & netsh.exe advfirewall firewall show rule name=all & netsh.exe firewall show state & netsh.exe firewall show config & sc query windefend & powershell.exe /c ""Get-Process | Where-Object { $_.ProcessName -eq 'Sysmon' }"" & powershell.exe /c ""Get-Service | where-object {$_.DisplayName -like '*sysm*'}"" & powershell.exe /c ""Get-CimInstance Win32_Service -Filter 'Description = ''System Monitor service'''"" & tasklist.exe & tasklist.exe | findstr /i virus & tasklist.exe | findstr /i cb & tasklist.exe | findstr /i defender & tasklist.exe | findstr /i cylance & tasklist.exe | findstr /i mc & tasklist.exe | findstr /i ""virus cb defender cylance mc""
+ParentUser: test\Admin""",5,2024-09-05T14:13:54.7022739Z,23007,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,40,False,3,Suspicious Windows cmd shell execution,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92032,windows_eventchannel,log,"Sep 5, 2024 @ 14:13:55.175",EventChannel,1725545635.185126,"Sep 5, 2024 @ 14:13:55.175", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,12780, , , , , , , , , , , ,"[""Account Discovery"",""Windows Command Shell""]","[""T1087"",""T1059.003""]","[""Discovery"",""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,tasklist.exe,C:\\Windows\\System32\\tasklist.exe,Lists the current running tasks,"\""cmd.exe\"" /c netsh.exe advfirewall  show allprofiles  &amp; netsh.exe advfirewall firewall dump &amp; netsh.exe advfirewall show currentprofile &amp; netsh.exe advfirewall firewall show rule name=all &amp; netsh.exe firewall show state &amp; netsh.exe firewall show config &amp; sc query windefend &amp; powershell.exe /c \""Get-Process | Where-Object { $_.ProcessName -eq 'Sysmon' }\"" &amp; powershell.exe /c \""Get-Service | where-object {$_.DisplayName -like '*sysm*'}\"" &amp; powershell.exe /c \""Get-CimInstance Win32_Service -Filter 'Description = ''System Monitor service'''\"" &amp; tasklist.exe &amp; tasklist.exe | findstr /i virus &amp; tasklist.exe | findstr /i cb &amp; tasklist.exe | findstr /i defender &amp; tasklist.exe | findstr /i cylance &amp; tasklist.exe | findstr /i mc &amp; tasklist.exe | findstr /i \""virus cb defender cylance mc\""",C:\\Windows\\System32\\cmd.exe,tasklist.exe,Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-bc9f-66d9-7a15-000000000a00},{d186f312-bca2-66d9-8615-000000000a00},0x74f6b,10844,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 14:13:54.701,"MD5=3D705BA430E4E045884234A98B3388CF,SHA256=C54FDD83D88404A62EB945B862E13979481526D2AF7A97ABC92C50ECD06D4F70,IMPHASH=FCEA32ABE79C10DFACC88F5335DD89DE",Microsoft Corporation,10.0.22621.1 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+VklOwpEBz5Sj0MnmtbI2,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-09-05 13:10:20.752
+ProcessGuid: {d186f312-adbc-66d9-4e0c-000000000a00}
+ProcessId: 10128
+Image: C:\Windows\System32\net1.exe
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net1.exe
+CommandLine: C:\Windows\system32\net1  localgroup administrators art-test /add
+CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+User: test\Admin
+LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
+LogonId: 0x74F6B
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=7CBB1DF40115C7D3CF0FE6CCFF82708E,SHA256=50E8AB76E511A917FD8CCF149DDAC1447FD817FF703AA9FDCC51DC77AC0237BE,IMPHASH=76EE66A0F294EAB08DCAEF5E64FBF02F
+ParentProcessGuid: {d186f312-adbc-66d9-4d0c-000000000a00}
+ParentProcessId: 13152
+ParentImage: C:\Windows\System32\net.exe
+ParentCommandLine: net  localgroup administrators art-test /add
+ParentUser: test\Admin""",5,2024-09-05T13:10:20.7525870Z,20211,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,18,False,3,Discovery activity executed,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92031,windows_eventchannel,log,"Sep 5, 2024 @ 13:10:21.795",EventChannel,1725541821.109723,"Sep 5, 2024 @ 13:10:21.795", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,10128, , , , , , , , , , , ,"[""Account Discovery""]","[""T1087""]","[""Discovery""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,net1.exe,C:\\Windows\\System32\\net1.exe,Net Command,net  localgroup administrators art-test /add,C:\\Windows\\System32\\net.exe,C:\\Windows\\system32\\net1  localgroup administrators art-test /add,Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-adbc-66d9-4d0c-000000000a00},{d186f312-adbc-66d9-4e0c-000000000a00},0x74f6b,13152,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 13:10:20.752,"MD5=7CBB1DF40115C7D3CF0FE6CCFF82708E,SHA256=50E8AB76E511A917FD8CCF149DDAC1447FD817FF703AA9FDCC51DC77AC0237BE,IMPHASH=76EE66A0F294EAB08DCAEF5E64FBF02F",Microsoft Corporation,10.0.22621.2506 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+6Uk1wpEBz5Sj0Mnmlq68,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-09-05 12:42:50.799
+ProcessGuid: {d186f312-a74a-66d9-2308-000000000a00}
+ProcessId: 5828
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.22621.3672 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c nslookup 192.168.28.193
+CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+User: test\Admin
+LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
+LogonId: 0x74F6B
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=428CEC6B0034E0F183EB5BAE887BE480,SHA256=3F6AA206177BEBB29FC534C587A246E0F395941640F3F266C80743AF95A02150,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+ParentProcessGuid: {d186f312-a743-66d9-9f06-000000000a00}
+ParentProcessId: 5520
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""powershell.exe"" & {$localip = ((ipconfig | findstr [0-9].\.)[0]).Split()[-1]
+$pieces = $localip.split(\"""".\"""")
+$firstOctet = $pieces[0]
+$secondOctet = $pieces[1]
+$thirdOctet = $pieces[2]
+foreach ($ip in 1..255 | % { \""""$firstOctet.$secondOctet.$thirdOctet.$_\"""" } ) {cmd.exe /c nslookup $ip}}
+ParentUser: test\Admin""",5,2024-09-05T12:42:50.7997130Z,18336,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,196,False,4,Powershell process spawned Windows command shell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92004,windows_eventchannel,log,"Sep 5, 2024 @ 12:42:55.714",EventChannel,1725540175.6445613,"Sep 5, 2024 @ 12:42:55.714", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,5828, , , , , , , , , , , ,"[""Windows Command Shell""]","[""T1059.003""]","[""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,Cmd.Exe,C:\\Windows\\System32\\cmd.exe,Windows Command Processor,"\""powershell.exe\"" &amp; {$localip = ((ipconfig | findstr [0-9].\\.)[0]).Split()[-1] $pieces = $localip.split(\\\""\"".\\\""\"") $firstOctet = $pieces[0] $secondOctet = $pieces[1] $thirdOctet = $pieces[2] foreach ($ip in 1..255 | % { \\\""\""$firstOctet.$secondOctet.$thirdOctet.$_\\\""\"" } ) {cmd.exe /c nslookup $ip}}",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,"\""C:\\Windows\\system32\\cmd.exe\"" /c nslookup 192.168.28.193",Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-a743-66d9-9f06-000000000a00},{d186f312-a74a-66d9-2308-000000000a00},0x74f6b,5520,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 12:42:50.799,"MD5=428CEC6B0034E0F183EB5BAE887BE480,SHA256=3F6AA206177BEBB29FC534C587A246E0F395941640F3F266C80743AF95A02150,IMPHASH=D73E39DAB3C8B57AA408073D01254964",Microsoft Corporation,10.0.22621.3672 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
