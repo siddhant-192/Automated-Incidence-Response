@@ -45,7 +45,7 @@ def initialisation_hackore():
     secondary_color = "green"
 
     # Display ASCII art with a typing effect using alternating colors
-    def display_ascii_with_typing_effect(ascii_art, delay=0.005):
+    def display_ascii_with_typing_effect(ascii_art, delay):
         toggle = True  # To alternate colors
         for char in ascii_art:
             color = primary_color if toggle else secondary_color
@@ -112,18 +112,19 @@ def initialisation_hackore():
     image_path = "image.png"
 
     # Display the main title with typing effect
-    display_ascii_with_typing_effect(ascii_art_title)
+    display_ascii_with_typing_effect(ascii_art_title,0.006)
 
     # Generate and display ASCII art from the logo image
     ascii_art_image = generate_ascii_art(image_path, new_width=100)
-    console.print(ascii_art_image)
+    display_ascii_with_typing_effect(ascii_art_image,0.0005)
 
     # Display hacker-style messages with special colors for the last three messages
     display_hacker_messages(hacker_messages)
 
-    # # Prompt the user to press Enter to continue
-    # console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
-    # input()
+    # Prompt the user to press Enter to continue
+    console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
+    input()
+
 
 
     
