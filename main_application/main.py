@@ -10,6 +10,7 @@ from llm.llm_client import generate_text
 import pandas as pd
 from rich.console import Console
 from rich.text import Text
+from rich.live import Live
 import time
 import random
 from PIL import Image
@@ -18,6 +19,7 @@ import warnings
 import sys
 import os
 from datetime import datetime
+import itertools
 
 # Redirect warnings to null
 warnings.simplefilter("ignore")
@@ -127,59 +129,96 @@ def initialisation_hackore():
     # console.print("\nPress [bold green]Enter[/bold green] to continue...", style="bold")
     # input()
 
+# Function for creating a loading animation with colored text
 
 
-    
-# Trigger function
+# Instantiate a Console object for printing styled text
+console = Console()
+
+# Function for typing effect with green text
+def typing_effect(message, color="bold green"):
+    styled_message = Text(message, style=color)
+    for char in styled_message:
+        console.print(char, end="")
+        time.sleep(0.05)
+    console.print()  # Newline after the message
+
+# Function to create a loading animation with green text, emoji, and section dividers
+def dramatic_loading(message, color="bold green", emoji="💻"):
+    spinner = itertools.cycle(["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"])
+    with Live(refresh_per_second=10) as live:
+        for _ in range(20):  # Adjust this range for loading duration
+            spinner_char = next(spinner)
+            live.update(Text(f"{emoji} [{spinner_char}] {message}", style=color))
+            time.sleep(0.1)
+    # Print separator line after each section
+    #console.print("------------------------------------------------", style="green")
+
+# Updated trigger function with refined messages, typing effect, and green color
 def trigger():
-    # All the logs will be retrieved from the multiple sources (Wahzu, Surikata, SMTP, System)
-    # WAHZU LOGS
-    wahzu_logs = pd.read_csv('wahzu_test.csv') # logs from Wahzu
-    print("Waazu logs loaded")
+    dramatic_loading("Loading Wazuh logs 📊", color="bold cyan", emoji="🗂️")
+    wahzu_logs = pd.read_csv('wahzu_test.csv')  # logs from Wazuh
+    typing_effect("✔️ Wazuh logs have been loaded", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
-    # SURIKATA LOGS
-    surikata_logs = pd.read_csv('surikata_test.csv') # logs from Surikata
-    print("Surikata logs loaded")
+    dramatic_loading("Loading Suricata logs 🔍", color="bold magenta", emoji="🐍")
+    surikata_logs = pd.read_csv('surikata_test.csv')  # logs from Suricata
+    typing_effect("✔️ Suricata logs have been loaded", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
-    # SMTP LOGS
-    smtp_logs = pd.read_csv('smtp_test.csv') # logs from SMTP server
-    print("SMTP logs loaded")
+    dramatic_loading("Loading SMTP logs 📧", color="bold yellow", emoji="📤")
+    smtp_logs = pd.read_csv('smtp_test.csv')  # logs from SMTP server
+    typing_effect("✔️ SMTP logs have been loaded", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
-    # SYSTEM LOGS
-    #system_logs = [] # logs from the system
-
-    flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs) #system_logs=system_logs
-    print("Classification completed")
-
+    console.print("------------------------------------------------", style="red")
+    console.print("------------------------------------------------", style="red")
+    dramatic_loading("Classifying logs 🛠️", color="bold blue", emoji="⚙️")
+    flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs)
+    typing_effect("✔️ Logs have been classified", color="bold green")
+    console.print("------------------------------------------------", style="green")
+    
+    dramatic_loading("Running analysis 🧠", color="bold green", emoji="📈")
     report = analyst_llm(flags=flagged_logs)
-    print("Analysis completed")
-
+    typing_effect("✔️ Analysis has been completed", color="bold green")
+    console.print("------------------------------------------------", style="green")
+    
+    dramatic_loading("Generating report format 📑", color="bold red", emoji="🖋️")
     markup_report_timestamp = markup_report_llm(report=report)
-    print("Report generated")
-
+    typing_effect("✔️ Report format has been generated", color="bold green")
+    console.print("------------------------------------------------", style="green")
+    
+    dramatic_loading("Finalizing PDF report 📄", color="bold purple", emoji="✅")
     report_generator(timestamp=markup_report_timestamp)
+    typing_effect("✔️ PDF report has been finalized", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
+# Updated classification function with refined messages, typing effect, and green color
 def classification(wahzu_logs, surikata_logs, smtp_logs):
-    print("Classification function called")
-    # Classification of logs from Wahzu
+    dramatic_loading("Classifying Wazuh logs 🛡️", color="bold cyan", emoji="🔍")
     wahzu_flagged = wahzu_classifier(wahzu_logs=wahzu_logs)
+    typing_effect("✔️ Wazuh logs have been classified", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
-    # Classification of logs from Surikata
-    # JSON data from Surikata will be passed
+    dramatic_loading("Classifying Suricata logs 🔒", color="bold magenta", emoji="🛠️")
     surikata_flagged = surikata_classifier(surikata_logs=surikata_logs)
+    typing_effect("✔️ Suricata logs have been classified", color="bold green")
+    console.print("------------------------------------------------", style="green")
 
-    # Classification of logs from SMTP server
+    dramatic_loading("Classifying SMTP logs 📬", color="bold yellow", emoji="📤")
     smtp_flagged = smtp_classifier(smtp_logs=smtp_logs)
-
-    # Classification of logs from the system
-    #system_flagged = system_classifier(system_logs=system_logs)
-
-    flagged_logs = {'Wazhu': wahzu_flagged, 'Surikata': surikata_flagged, 'SMTP': smtp_flagged} #, 'System': system_flagged
-
+    typing_effect("✔️ SMTP logs have been classified", color="bold green")
+    console.print("------------------------------------------------", style="green")
+    console.print("                                                ",)
+    console.print("------------------------------------------------", style="red")
+    console.print("------------------------------------------------", style="red")
+    flagged_logs = {'Wazuh': wahzu_flagged, 'Suricata': surikata_flagged, 'SMTP': smtp_flagged}
+    console.print("------------------------------------------------", style="red")
+    console.print("------------------------------------------------", style="red")
     return flagged_logs
 
 def analyst_llm(flags):
-    print("LLM function called")
+    dramatic_loading("Waking up the LLM!", color="bold orange", emoji="📤")
     # Make call to a LLM server setup to analyse and then generate report on the flagged logs
     # Prompt
     prompt = """
