@@ -151,16 +151,17 @@ def trigger():
     flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs) #system_logs=system_logs
     print("Classification completed")
 
+    print("Analysing...")
     report = analyst_llm(flags=flagged_logs)
     print("Analysis completed")
 
+    print("Generating report...")
     markup_report_timestamp = markup_report_llm(report=report)
     print("Report generated")
 
     report_generator(timestamp=markup_report_timestamp)
 
 def classification(wahzu_logs, surikata_logs, smtp_logs):
-    print("Classification function called")
     # Classification of logs from Wahzu
     wahzu_flagged = wahzu_classifier(wahzu_logs=wahzu_logs)
 
@@ -179,7 +180,6 @@ def classification(wahzu_logs, surikata_logs, smtp_logs):
     return flagged_logs
 
 def analyst_llm(flags):
-    print("LLM function called")
     # Make call to a LLM server setup to analyse and then generate report on the flagged logs
     # Prompt
     prompt = """
@@ -331,7 +331,6 @@ def markup_report_llm(report):
     return timestamp
 
 def report_generator(timestamp):
-    print("Report Generation function called")
     # Compile the syntax to make a report and downloadable in pdf format
 
     syntax_to_pdf(timestamp=timestamp)
