@@ -1,9 +1,0 @@
-`= Incident Response Report`
-
-== Executive Summary
-
-* *Overview of the Incident*: Multiple logs were analyzed to identify potential security incidents. The analysis revealed several indicators of compromise (IoCs) suggesting unauthorized system access and possible malicious activity.
-
-* *Impact Assessment*: The incident may have resulted in unauthorized data access or manipulation, with a moderate impact on system integrity.
-
-* *Actions Taken*: Containment measures were implemented to prevent further unauthorized access. Eradication steps are in progress to remove any malware or back

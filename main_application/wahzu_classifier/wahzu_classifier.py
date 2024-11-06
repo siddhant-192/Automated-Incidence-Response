@@ -110,7 +110,4 @@ def wahzu_classifier(wahzu_logs):
     # Collect flagged logs
     flagged_logs = classify_df[predicted_classes.numpy() == 1].to_dict(orient='records')
 
-    print("Total: ", len(wahzu_logs))
-    print("Flagged: ", len(flagged_logs))
-
     return flagged_logs

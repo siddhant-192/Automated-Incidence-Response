@@ -148,22 +148,16 @@ def trigger():
     # SYSTEM LOGS
     #system_logs = [] # logs from the system
 
-    print("Classification initaited")
     flagged_logs = classification(wahzu_logs=wahzu_logs, surikata_logs=surikata_logs, smtp_logs=smtp_logs) #system_logs=system_logs
     print("Classification completed")
 
-    print("Analysing flagged logs")
     report = analyst_llm(flags=flagged_logs)
-    print(report)
     print("Analysis completed")
 
-    print("Generating report")
     markup_report_timestamp = markup_report_llm(report=report)
     print("Report generated")
 
     report_generator(timestamp=markup_report_timestamp)
-
-    print("Trigger function called")
 
 def classification(wahzu_logs, surikata_logs, smtp_logs):
     print("Classification function called")
@@ -279,7 +273,6 @@ def analyst_llm(flags):
     return report
 
 def markup_report_llm(report):
-    print("Report Generation function called")
     # Generate report based on the analysis using another llm call in ASCII syntax
     # Prompt
     prompt = """
@@ -347,5 +340,5 @@ def report_generator(timestamp):
 
 
 if __name__ == "__main__":
-    #initialisation_hackore()
+    initialisation_hackore()
     trigger()
