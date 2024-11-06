@@ -157,7 +157,7 @@ def dramatic_loading(message, color="bold green", emoji="💻"):
 # Updated trigger function with refined messages, typing effect, and green color
 def trigger():
     dramatic_loading("Loading Wazuh logs 📊", color="bold cyan", emoji="🗂️")
-    wahzu_logs = pd.read_csv('wahzu_test.csv')  # logs from Wazuh
+    wahzu_logs = pd.read_csv('wahzu_test1.csv')  # logs from Wazuh
     typing_effect("✔️ Wazuh logs have been loaded", color="bold green")
     console.print("------------------------------------------------", style="green")
 
@@ -167,7 +167,7 @@ def trigger():
     console.print("------------------------------------------------", style="green")
 
     dramatic_loading("Loading SMTP logs 📧", color="bold yellow", emoji="📤")
-    smtp_logs = pd.read_csv('smtp_test.csv')  # logs from SMTP server
+    smtp_logs = pd.read_csv('smtp_test1.csv')  # logs from SMTP server
     typing_effect("✔️ SMTP logs have been loaded", color="bold green")
     console.print("------------------------------------------------", style="green")
 
@@ -297,8 +297,11 @@ def analyst_llm(flags):
         Flexibility: Adjust the report structure to best fit the incident(s) you're reporting on. If certain sections are not applicable, you may omit them or combine sections for clarity.
         Clarity and Detail: Provide sufficient technical details in the main body or appendices to support your findings and conclusions.
         Confidentiality: Do not include any sensitive information that is not relevant to the incident analysis.
+        Provide the log reference to the statements and findings you are presenting and supporting details. Make sure to provide supporting and referencing logs for each Incident Description and Detection and Analysis.
 
         SUPER IMPORTANT: Only output the report content and nothing else apart form it.
+
+        Also provide the report in detail.
 
     Flagged Logs:
     """
@@ -309,6 +312,7 @@ def analyst_llm(flags):
 
     # Output report
     report = generate_text(input_text=input_text)
+    #print(report)
     return report
 
 def markup_report_llm(report):
@@ -348,7 +352,7 @@ def markup_report_llm(report):
 
         Output Instructions:
 
-        - Exclusive Content: Only output the AsciiDoc code for the converted report.
+        - Exclusive Content: Only output the AsciiDoc code for the converted report. Dont give as code snippet but just plain text syntax for asciidoc.
         - No Additional Text: Do not include any explanations, comments, or text other than the AsciiDoc code.
         - Compilation Ready: Ensure the AsciiDoc code is properly formatted and ready for compilation without any modifications.
 
@@ -356,14 +360,26 @@ def markup_report_llm(report):
 
         """
 
+    # input_text = prompt + report
+    # # Output syntax doc
+    # markup_report = generate_text(input_text=input_text)
+
+    # # Get the current time and format it as a string
+    # timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # # Save markup report to 'test.adoc'
+    # with open(f'report/report_{timestamp}.adoc', 'w') as file:
+    #     file.write(markup_report)
+
+    # return timestamp
+
     input_text = prompt + report
-    # Output syntax doc
     markup_report = generate_text(input_text=input_text)
 
-    # Get the current time and format it as a string
+    if not markup_report:
+        raise ValueError("Failed to generate markup report. Received None from generate_text.")
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
-    # Save markup report to 'test.adoc'
     with open(f'report/report_{timestamp}.adoc', 'w') as file:
         file.write(markup_report)
 

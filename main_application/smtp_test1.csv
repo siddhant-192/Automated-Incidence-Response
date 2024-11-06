@@ -1,0 +1,7 @@
+domain_val_message-id,domain_match_message-id_from,domain_match_from_return-path,domain_match_message-id_return-path,domain_match_message-id_sender,domain_match_message-id_reply-to,domain_match_return-path_reply-to,domain_match_reply-to_to,domain_match_to_in-reply-to,domain_match_errors-to_message-id,domain_match_errors-to_from,domain_match_errors-to_sender,domain_match_errors-to_reply-to,domain_match_sender_from,domain_match_references_reply-to,domain_match_references_in-reply-to,domain_match_references_to,domain_match_from_reply-to,domain_match_to_from,domain_match_to_message-id,domain_match_to_received
+1,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,0,1,0,0,0
+1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0
+1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0
+1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0
+1,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,0,1,0,0,0
+0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

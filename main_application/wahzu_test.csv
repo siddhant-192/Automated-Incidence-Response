@@ -1,236 +1,750 @@
-_id,_version,_score,_source.agent.ip,_source.agent.name,_source.agent.id,_source.manager.name,_source.data.win.eventdata.addressLength,_source.data.win.eventdata.clientPID,_source.data.win.eventdata.address,_source.data.win.eventdata.queryName,_source.data.win.system.eventID,_source.data.win.system.keywords,_source.data.win.system.providerGuid,_source.data.win.system.level,_source.data.win.system.channel,_source.data.win.system.opcode,_source.data.win.system.message,_source.data.win.system.version,_source.data.win.system.systemTime,_source.data.win.system.eventRecordID,_source.data.win.system.threadID,_source.data.win.system.computer,_source.data.win.system.task,_source.data.win.system.processID,_source.data.win.system.severityValue,_source.data.win.system.providerName,_source.rule.firedtimes,_source.rule.mail,_source.rule.level,_source.rule.description,_source.rule.groups,_source.rule.id,_source.decoder.name,_source.input.type,_source.@timestamp,_source.location,_source.id,_source.timestamp,_source.data.win.eventdata.subjectLogonId,_source.data.win.eventdata.subjectDomainName,_source.data.win.eventdata.targetLinkedLogonId,_source.data.win.eventdata.impersonationLevel,_source.data.win.eventdata.authenticationPackageName,_source.data.win.eventdata.targetLogonId,_source.data.win.eventdata.logonProcessName,_source.data.win.eventdata.logonGuid,_source.data.win.eventdata.targetUserName,_source.data.win.eventdata.keyLength,_source.data.win.eventdata.elevatedToken,_source.data.win.eventdata.subjectUserSid,_source.data.win.eventdata.processId,_source.data.win.eventdata.processName,_source.data.win.eventdata.targetDomainName,_source.data.win.eventdata.targetUserSid,_source.data.win.eventdata.virtualAccount,_source.data.win.eventdata.logonType,_source.data.win.eventdata.subjectUserName,_source.rule.hipaa,_source.rule.pci_dss,_source.rule.tsc,_source.rule.nist_800_53,_source.rule.gdpr,_source.rule.mitre.technique,_source.rule.mitre.id,_source.rule.mitre.tactic,_source.rule.gpg13,_source.data.dpkg_status,_source.data.package,_source.data.arch,_source.data.version,_source.full_log,_source.data.sca.scan_id,_source.data.sca.check.result,_source.data.sca.check.remediation,_source.data.sca.check.compliance.pci_dss,_source.data.sca.check.compliance.tsc,_source.data.sca.check.compliance.cis_csc,_source.data.sca.check.compliance.cis,_source.data.sca.check.description,_source.data.sca.check.id,_source.data.sca.check.title,_source.data.sca.check.rationale,_source.data.sca.check.command,_source.data.sca.type,_source.data.sca.policy,_source.rule.cis_csc,_source.rule.cis,_source.data.sca.check.references,_source.data.sca.check.compliance.nist_800_53,_source.data.sca.check.reason,_source.data.sca.check.file,_source.data.sca.check.compliance.hipaa,_source.data.sca.check.compliance.gdpr_IV,_source.data.sca.check.compliance.gpg_13,_source.rule.gdpr_IV,_source.rule.gpg_13,_source.data.sca.check.directory,_source.predecoder.hostname,_source.predecoder.program_name,_source.predecoder.timestamp,_source.data.uid,_source.data.dstuser,_source.decoder.parent,_source.previous_output,_source.previous_log,_source.data.sca.check.registry,_source.data.sca.check.compliance.gpg13,_source.data.win.eventdata.param3,_source.data.win.eventdata.param4,_source.data.win.eventdata.param1,_source.data.win.eventdata.param2,_source.data.win.system.eventSourceName,_source.rule.info,_source.data.srcip,_source.data.srcport,_source.data.win.eventdata.binary,_source.data.sca.score,_source.data.sca.total_checks,_source.data.sca.file,_source.data.sca.policy_id,_source.data.sca.invalid,_source.data.sca.description,_source.data.sca.passed,_source.data.sca.failed,_source.data.extra_data,_source.syscheck.mode,_source.syscheck.path,_source.syscheck.value_type,_source.syscheck.sha1_after,_source.syscheck.size_after,_source.syscheck.arch,_source.syscheck.event,_source.syscheck.md5_after,_source.syscheck.sha256_after,_source.syscheck.value_name,_source.syscheck.md5_before,_source.syscheck.sha256_before,_source.syscheck.changed_attributes,_source.syscheck.sha1_before,_source.syscheck.uname_after,_source.syscheck.gname_after,_source.syscheck.mtime_after,_source.syscheck.uid_after,_source.syscheck.gid_after,_source.syscheck.win_perm_after,_source.syscheck.mtime_before,_source.data.id,_source.syscheck.gid_before,_source.data.win.eventdata.data,_source.data.srcuser,_source.data.win.eventdata.p1,_source.data.win.eventdata.p2,_source.data.win.eventdata.rechecking,_source.data.win.eventdata.p3,_source.data.win.eventdata.attachedFiles,_source.data.win.eventdata.p4,_source.data.win.eventdata.reportId,_source.data.win.eventdata.p5,_source.data.win.eventdata.p6,_source.data.win.eventdata.reportStatus,_source.data.win.eventdata.bucket,_source.data.win.eventdata.storePath,_source.data.win.eventdata.bucketType,_source.data.win.eventdata.hashedBucket,_source.data.win.eventdata.response,_source.data.win.eventdata.eventName,_source.data.win.eventdata.cabGuid,_source.data.win.eventdata.cabId,_source.data.win.eventdata.serviceType,_source.data.win.eventdata.accountName,_source.data.win.eventdata.imagePath,_source.data.win.eventdata.startType,_source.data.win.eventdata.serviceName,_source.data.win.eventdata.ipAddress,_source.data.win.eventdata.workstationName,_source.data.win.eventdata.subStatus,_source.data.win.eventdata.ipPort,_source.data.win.eventdata.failureReason,_source.data.win.eventdata.status,_source.data.win.eventdata.extraInfo,_source.data.vulnerability.reference,_source.data.vulnerability.severity,_source.data.vulnerability.cve,_source.data.vulnerability.package.name,_source.data.vulnerability.package.version,_source.data.vulnerability.package.architecture,_source.data.vulnerability.published,_source.data.vulnerability.enumeration,_source.data.vulnerability.title,_source.data.vulnerability.type,_source.data.vulnerability.cvss.cvss3.base_score,_source.data.vulnerability.updated,_source.data.vulnerability.status,_source.data.gid,_source.data.tty,_source.data.pwd,_source.data.command,_source.decoder.ftscomment,_source.data.win.eventdata.updateRevisionNumber,_source.data.win.eventdata.updateGuid,_source.data.win.eventdata.serviceGuid,_source.data.win.eventdata.errorCode,_source.data.win.eventdata.updateTitle,_source.data.win.eventdata.messageText,_source.data.win.eventdata.method,_source.data.win.eventdata.stage,_source.data.win.eventdata.context,_source.data.win.eventdata.url,_source.data.shell,_source.data.home,_source.data.win.eventdata.previousTime,_source.data.win.eventdata.newTime,_source.data.win.eventdata.originalFileName,_source.data.win.eventdata.image,_source.data.win.eventdata.description,_source.data.win.eventdata.parentCommandLine,_source.data.win.eventdata.parentImage,_source.data.win.eventdata.commandLine,_source.data.win.eventdata.integrityLevel,_source.data.win.eventdata.user,_source.data.win.eventdata.targetFilename,_source.data.win.eventdata.appName,_source.data.win.eventdata.moduleName,_source.data.win.eventdata.appPath,_index,_source.data.win.eventdata.product,_source.data.win.eventdata.parentProcessGuid,_source.data.win.eventdata.processGuid,_source.data.win.eventdata.logonId,_source.data.win.eventdata.parentProcessId,_source.data.win.eventdata.currentDirectory,_source.data.win.eventdata.utcTime,_source.data.win.eventdata.hashes,_source.data.win.eventdata.company,_source.data.win.eventdata.fileVersion,_source.data.win.eventdata.terminalSessionId,_source.data.win.eventdata.parentUser,_source.data.win.eventdata.hResult,_source.data.win.eventdata.creationUtcTime,_source.data.win.eventdata.ruleName,_source.data.win.eventdata.destinationPort,_source.data.win.eventdata.sourcePort,_source.data.win.eventdata.initiated,_source.data.win.eventdata.destinationIp,_source.data.win.eventdata.protocol,_source.data.win.eventdata.sourceIp,_source.data.win.eventdata.sourceHostname,_source.data.win.eventdata.destinationPortName,_source.data.win.eventdata.destinationIsIpv6,_source.data.win.eventdata.destinationHostname,_source.data.win.eventdata.sourceIsIpv6,_source.data.win.eventdata.appVersion,_source.data.win.eventdata.appTimeStamp,_source.data.win.eventdata.processCreationTime,_source.data.win.eventdata.moduleTimeStamp,_source.data.win.eventdata.modulePath,_source.data.win.eventdata.moduleVersion,_source.data.win.eventdata.faultingOffset,_source.data.win.eventdata.integratorReportId,_source.data.win.eventdata.exceptionCode,_source.data.win.eventdata.lmPackageName,_source.data.win.eventdata.p7,_source.data.win.eventdata.p8,_source.data.win.eventdata.p9,_source.data.origin.module,_source.data.parameters.extra_args,_source.data.parameters.program,_source.rule.frequency,_source.data.win.eventdata.targetObject,_source.data.win.eventdata.details,_source.data.win.eventdata.eventType,_source.data.win.eventdata.param5
-GEmCwJEBz5Sj0MnmNKg4,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,2,False,5,Registry Key Integrity Checksum Changed,"[""ossec"",""syscheck"",""syscheck_entry_modified"",""syscheck_registry""]",594,syscheck_registry_key_modified,log,"Sep 5, 2024 @ 04:47:21.535",syscheck,1725511642.0,"Sep 5, 2024 @ 04:47:21.535", , , , , , , , , , , , , , , , , , , ,"[""164.312.c.1"",""164.312.c.2""]","[""11.5""]","[""PI1.4"",""PI1.5"",""CC6.1"",""CC6.8"",""CC7.2"",""CC7.3""]","[""SI.7""]","[""II_5.1.f""]","[""Stored Data Manipulation"",""Modify Registry""]","[""T1565.001"",""T1112""]","[""Impact"",""Defense Evasion""]","[""4.13""]", , , , ,"Registry Key '[x32] HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS' modified
-Mode: scheduled
-Changed attributes: mtime
-Old modification time was: '1725306694', now it is '1725511603'
-", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,scheduled,HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS, , , ,[x32],modified, , , , , ,"[""mtime""]", ,SYSTEM,SYSTEM,2024-09-04T21:46:43,S-1-5-18,S-1-5-18,"[{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""Users""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""Administrators""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""SYSTEM""},{""allowed"":[""DELETE"",""READ_CONTROL"",""WRITE_DAC"",""WRITE_OWNER"",""READ_DATA"",""WRITE_DATA"",""APPEND_DATA"",""READ_EA"",""WRITE_EA"",""EXECUTE""],""name"":""CREATOR OWNER""},{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""ALL APPLICATION PACKAGES""},{""allowed"":[""READ_CONTROL"",""READ_DATA"",""READ_EA"",""WRITE_EA""],""name"":""S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681""}]",2024-09-02T12:51:34, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-6klkwZEBz5Sj0Mnm0anm,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,49,False,3,The CVE-2024-21361 that affected Microsoft Windows 11 Pro was solved due to a package removal/update or a system upgrade,"[""vulnerability-detector""]",23502,json,log,"Sep 5, 2024 @ 08:54:50.125",vulnerability-detector,1725526490.48555,"Sep 5, 2024 @ 08:54:50.125", , , , , , , , , , , , , , , , , , , , ,"[""11.2.1"",""11.2.3""]","[""CC7.1"",""CC7.2""]", ,"[""IV_35.7.d""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21361,High,CVE-2024-21361,Microsoft Windows 11 Pro,10.0.22631.4037,x86_64,2024-02-13T18:15:53Z,CVE,CVE-2024-21361 affecting Microsoft Windows 11 Pro was solved,Packages,8.8,2024-05-29T00:15:28Z,Solved, , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ZElctJEBz5Sj0Mnmjqed,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,85,False,3,CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0: Ensure 'Turn on convenience PIN sign-in' is set to 'Disabled'.,"[""sca""]",19008,sca,log,"Sep 2, 2024 @ 20:10:48.830",sca,1725307848.152863,"Sep 2, 2024 @ 20:10:48.830", , , , , , , , , , , , , , , , , , , , ,"[""2.2"",""8.2""]","[""CC7.1"",""CC7.2"",""CC6.1""]","[""CM.1""]","[""IV_35.7.d""]", , , , , , , , , ,1411927070,passed,"To establish the recommended configuration via GP, set the following UI path to Disabled: Computer Configuration\Policies\Administrative Templates\System\Logon\Turn on convenience PIN sign-in. Note: This Group Policy path may not exist by default. It is provided by the Group Policy template CredentialProviders.admx/adml that is included with the Microsoft Windows 8.0 & Server 2012 (non-R2) Administrative Templates (or newer). Note #2: In older Microsoft Windows Administrative Templates, this setting was initially named Turn on PIN sign-in, but it was renamed starting with the Windows 10 Release 1511 Administrative Templates.",8.2,CC6.1, ,18.8.28.7,"This policy setting allows you to control whether a domain user can sign in using a convenience PIN. In Windows 10, convenience PIN was replaced with Passport, which has stronger security properties. To configure Passport for domain users, use the policies under Computer Configuration\Administrative Templates\Windows Components\Microsoft Passport for Work. Note: The user's domain password will be cached in the system vault when using this feature. The recommended state for this setting is: Disabled.",26261,Ensure 'Turn on convenience PIN sign-in' is set to 'Disabled'.,"A PIN is created from a much smaller selection of characters than a password, so in most cases a PIN will be much less robust than a password.", ,check,CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0, ,"[""18.8.28.7""]", , , , , , , , , , , , , , , , , , ,"[""HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-rkmBwZEBz5Sj0Mnm36qk,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , ,1,False,3,Wazuh agent disconnected.,"[""ossec""]",504,ossec,log,"Sep 5, 2024 @ 09:26:35.646",wazuh-monitord,1725528395.907497,"Sep 5, 2024 @ 09:26:35.646", , , , , , , , , , , , , , , , , , , ,"[""164.312.b""]","[""10.6.1"",""10.2.6""]","[""CC7.2"",""CC7.3"",""CC6.8""]","[""AU.6"",""AU.14"",""AU.5""]","[""IV_35.7.d""]","[""Disable or Modify Tools""]","[""T1562.001""]","[""Defense Evasion""]","[""10.1""]", , , , ,ossec: Agent disconnected: 'Windows-any'., , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90m1wJEBz5Sj0MnmZaiw,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
-
-Subject:
-	Security ID:		S-1-5-18
-	Account Name:		TEST$
-	Account Domain:		WORKGROUP
-	Logon ID:		0x3E7
-
-Logon Information:
-	Logon Type:		5
-	Restricted Admin Mode:	-
-	Remote Credential Guard:	-
-	Virtual Account:		No
-	Elevated Token:		Yes
-
-Impersonation Level:		Impersonation
-
-New Logon:
-	Security ID:		S-1-5-18
-	Account Name:		SYSTEM
-	Account Domain:		NT AUTHORITY
-	Logon ID:		0x3E7
-	Linked Logon ID:		0x0
-	Network Account Name:	-
-	Network Account Domain:	-
-	Logon GUID:		{00000000-0000-0000-0000-000000000000}
-
-Process Information:
-	Process ID:		0x2ec
-	Process Name:		C:\Windows\System32\services.exe
-
-Network Information:
-	Workstation Name:	-
-	Source Network Address:	-
-	Source Port:		-
-
-Detailed Authentication Information:
-	Logon Process:		Advapi  
-	Authentication Package:	Negotiate
-	Transited Services:	-
-	Package Name (NTLM only):	-
-	Key Length:		0
-
-This event is generated when a logon session is created. It is generated on the computer that was accessed.
-
-The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
-
-The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
-
-The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
-
-The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
-
-The impersonation level field indicates the extent to which a process in the logon session can impersonate.
-
-The authentication information fields provide detailed information about this specific logon request.
-	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
-	- Transited services indicate which intermediate services have participated in this logon request.
-	- Package name indicates which sub-protocol was used among the NTLM protocols.
-	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-09-05T05:43:07.8446018Z,2226,10332,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,6,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,windows_eventchannel,log,"Sep 5, 2024 @ 05:43:08.706",EventChannel,1725514988.426026,"Sep 5, 2024 @ 05:43:08.706",0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x2ec,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$,"[""164.312.b""]","[""10.2.5""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""IV_32.2""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]","[""7.1"",""7.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-eEllwZEBz5Sj0MnmM6qK,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
-
-Subject:
-	Security ID:		S-1-5-18
-	Account Name:		TEST$
-	Account Domain:		WORKGROUP
-	Logon ID:		0x3E7
-
-Logon Information:
-	Logon Type:		5
-	Restricted Admin Mode:	-
-	Remote Credential Guard:	-
-	Virtual Account:		No
-	Elevated Token:		Yes
-
-Impersonation Level:		Impersonation
-
-New Logon:
-	Security ID:		S-1-5-18
-	Account Name:		SYSTEM
-	Account Domain:		NT AUTHORITY
-	Logon ID:		0x3E7
-	Linked Logon ID:		0x0
-	Network Account Name:	-
-	Network Account Domain:	-
-	Logon GUID:		{00000000-0000-0000-0000-000000000000}
-
-Process Information:
-	Process ID:		0x2dc
-	Process Name:		C:\Windows\System32\services.exe
-
-Network Information:
-	Workstation Name:	-
-	Source Network Address:	-
-	Source Port:		-
-
-Detailed Authentication Information:
-	Logon Process:		Advapi  
-	Authentication Package:	Negotiate
-	Transited Services:	-
-	Package Name (NTLM only):	-
-	Key Length:		0
-
-This event is generated when a logon session is created. It is generated on the computer that was accessed.
-
-The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
-
-The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
-
-The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
-
-The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
-
-The impersonation level field indicates the extent to which a process in the logon session can impersonate.
-
-The authentication information fields provide detailed information about this specific logon request.
-	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
-	- Transited services indicate which intermediate services have participated in this logon request.
-	- Package name indicates which sub-protocol was used among the NTLM protocols.
-	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-09-05T08:55:17.2179432Z,16803,1068,test,12544,768,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,27,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,windows_eventchannel,log,"Sep 5, 2024 @ 08:55:18.728",EventChannel,1725526518.682575,"Sep 5, 2024 @ 08:55:18.728",0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x2dc,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$,"[""164.312.b""]","[""10.2.5""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""IV_32.2""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]","[""7.1"",""7.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-akk1wpEBz5Sj0Mnmpq9f,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+_index,_id,_version,_score,_source.agent.ip,_source.agent.name,_source.agent.id,_source.manager.name,_source.data.win.eventdata.originalFileName,_source.data.win.eventdata.image,_source.data.win.eventdata.product,_source.data.win.eventdata.parentProcessGuid,_source.data.win.eventdata.description,_source.data.win.eventdata.logonGuid,_source.data.win.eventdata.parentCommandLine,_source.data.win.eventdata.processGuid,_source.data.win.eventdata.logonId,_source.data.win.eventdata.parentProcessId,_source.data.win.eventdata.processId,_source.data.win.eventdata.currentDirectory,_source.data.win.eventdata.utcTime,_source.data.win.eventdata.hashes,_source.data.win.eventdata.parentImage,_source.data.win.eventdata.company,_source.data.win.eventdata.commandLine,_source.data.win.eventdata.integrityLevel,_source.data.win.eventdata.fileVersion,_source.data.win.eventdata.user,_source.data.win.eventdata.terminalSessionId,_source.data.win.eventdata.parentUser,_source.data.win.system.eventID,_source.data.win.system.keywords,_source.data.win.system.providerGuid,_source.data.win.system.level,_source.data.win.system.channel,_source.data.win.system.opcode,_source.data.win.system.message,_source.data.win.system.version,_source.data.win.system.systemTime,_source.data.win.system.eventRecordID,_source.data.win.system.threadID,_source.data.win.system.computer,_source.data.win.system.task,_source.data.win.system.processID,_source.data.win.system.severityValue,_source.data.win.system.providerName,_source.rule.firedtimes,_source.rule.mail,_source.rule.level,_source.rule.description,_source.rule.groups,_source.rule.mitre.technique,_source.rule.mitre.id,_source.rule.mitre.tactic,_source.rule.id,_source.decoder.name,_source.input.type,_source.@timestamp,_source.location,_source.id,_source.timestamp,_source.data.win.eventdata.targetFilename,_source.data.win.eventdata.creationUtcTime,_source.predecoder.hostname,_source.predecoder.program_name,_source.predecoder.timestamp,_source.data.dstuser,_source.rule.pci_dss,_source.rule.hipaa,_source.rule.tsc,_source.rule.nist_800_53,_source.rule.gpg13,_source.rule.gdpr,_source.decoder.parent,_source.full_log,_source.data.srcuser,_source.data.tty,_source.data.pwd,_source.data.command,_source.decoder.ftscomment,_source.data.win.eventdata.p1,_source.data.win.eventdata.p2,_source.data.win.eventdata.rechecking,_source.data.win.eventdata.p3,_source.data.win.eventdata.attachedFiles,_source.data.win.eventdata.reportId,_source.data.win.eventdata.reportStatus,_source.data.win.eventdata.bucket,_source.data.win.eventdata.storePath,_source.data.win.eventdata.bucketType,_source.data.win.eventdata.hashedBucket,_source.data.win.eventdata.response,_source.data.win.eventdata.eventName,_source.data.win.eventdata.cabGuid,_source.data.win.eventdata.cabId,_source.data.win.eventdata.appVersion,_source.data.win.eventdata.appTimeStamp,_source.data.win.eventdata.appName,_source.data.win.eventdata.moduleName,_source.data.win.eventdata.processCreationTime,_source.data.win.eventdata.moduleTimeStamp,_source.data.win.eventdata.appPath,_source.data.win.eventdata.modulePath,_source.data.win.eventdata.moduleVersion,_source.data.win.eventdata.faultingOffset,_source.data.win.eventdata.integratorReportId,_source.data.win.eventdata.exceptionCode,_source.data.win.eventdata.p4,_source.data.win.eventdata.p5,_source.data.win.eventdata.p6,_source.data.win.eventdata.p7,_source.data.win.eventdata.p8,_source.data.win.eventdata.subjectLogonId,_source.data.win.eventdata.subjectDomainName,_source.data.win.eventdata.targetLinkedLogonId,_source.data.win.eventdata.impersonationLevel,_source.data.win.eventdata.authenticationPackageName,_source.data.win.eventdata.targetLogonId,_source.data.win.eventdata.logonProcessName,_source.data.win.eventdata.targetUserName,_source.data.win.eventdata.keyLength,_source.data.win.eventdata.elevatedToken,_source.data.win.eventdata.subjectUserSid,_source.data.win.eventdata.processName,_source.data.win.eventdata.targetDomainName,_source.data.win.eventdata.targetUserSid,_source.data.win.eventdata.virtualAccount,_source.data.win.eventdata.logonType,_source.data.win.eventdata.subjectUserName,_source.data.win.eventdata.addressLength,_source.data.win.eventdata.clientPID,_source.data.win.eventdata.address,_source.data.win.eventdata.queryName,_source.previous_output,_source.previous_log,_source.data.uid,syscheck.path,syscheck.event,syscheck.value_name,syscheck.win_perm_after,data.win.eventdata.serviceType,data.vulnerability.severity,data.vulnerability.cve,data.vulnerability.cvss.cvss3.base_score
+wazuh-alerts-4.x-2024.11.06,CCQ_A5MBYS7HPVChOZvp,1,1,192.168.28.148,Windows,1,ubuntu,PowerShell.EXE,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,Microsoft® Windows® Operating System,{d186f312-d6c5-672b-6c04-000000001700},Windows PowerShell,{d186f312-bc90-672b-984e-2b0000000000},powershell,{d186f312-d6d0-672b-6d04-000000001700},0x2b4e98,9832,6008,C:\\Users\\Admin\\,2024-11-06 20:51:28.907,"MD5=9D8E30DAF21108092D5980C931876B7E,SHA256=3247BCFD60F6DD25F34CB74B5889AB10EF1B3EC72B4D4B3D95B5B25B534560B8,IMPHASH=AFACF6DC9041114B198160AAB4D0AE77",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,Microsoft Corporation,"\""C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"" -ep Bypass",Medium,10.0.22621.3085 (WinBuild.160101.0800),test\\Admin,1,test\\Admin,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
 RuleName: -
-UtcTime: 2024-09-05 12:42:53.570
-ProcessGuid: {d186f312-a74d-66d9-a708-000000000a00}
-ProcessId: 2096
+UtcTime: 2024-11-06 20:51:28.907
+ProcessGuid: {d186f312-d6d0-672b-6d04-000000001700}
+ProcessId: 6008
 Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 FileVersion: 10.0.22621.3085 (WinBuild.160101.0800)
 Description: Windows PowerShell
 Product: Microsoft® Windows® Operating System
 Company: Microsoft Corporation
 OriginalFileName: PowerShell.EXE
-CommandLine: ""powershell.exe"" & {$DirectorySearcher = New-Object System.DirectoryServices.DirectorySearcher(\""""(ObjectCategory=Computer)\"""")
-$DirectorySearcher.PropertiesToLoad.Add(\""""Name\"""")
-$Computers = $DirectorySearcher.findall()
-foreach ($Computer in $Computers) {
-  $Computer = $Computer.Properties.name
-  if (!$Computer) { Continue }
-  Write-Host $Computer}}
-CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+CommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -ep Bypass
+CurrentDirectory: C:\Users\Admin\
 User: test\Admin
-LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
-LogonId: 0x74F6B
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
 TerminalSessionId: 1
 IntegrityLevel: Medium
 Hashes: MD5=9D8E30DAF21108092D5980C931876B7E,SHA256=3247BCFD60F6DD25F34CB74B5889AB10EF1B3EC72B4D4B3D95B5B25B534560B8,IMPHASH=AFACF6DC9041114B198160AAB4D0AE77
-ParentProcessGuid: {d186f312-a4b4-66d9-5004-000000000a00}
-ParentProcessId: 3324
+ParentProcessGuid: {d186f312-d6c5-672b-6c04-000000001700}
+ParentProcessId: 9832
 ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -EP bYPASS
-ParentUser: test\Admin""",5,2024-09-05T12:42:53.5711781Z,18561,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,24,False,4,Powershell process spawned powershell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92027,windows_eventchannel,log,"Sep 5, 2024 @ 12:43:00.366",EventChannel,1725540180.7237732,"Sep 5, 2024 @ 12:43:00.366", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,2096, , , , , , , , , , , ,"[""PowerShell""]","[""T1059.001""]","[""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,PowerShell.EXE,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,Windows PowerShell,"\""C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"" -EP bYPASS",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,"\""powershell.exe\"" &amp; {$DirectorySearcher = New-Object System.DirectoryServices.DirectorySearcher(\\\""\""(ObjectCategory=Computer)\\\""\"") $DirectorySearcher.PropertiesToLoad.Add(\\\""\""Name\\\""\"") $Computers = $DirectorySearcher.findall() foreach ($Computer in $Computers) {   $Computer = $Computer.Properties.name   if (!$Computer) { Continue }   Write-Host $Computer}}",Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-a4b4-66d9-5004-000000000a00},{d186f312-a74d-66d9-a708-000000000a00},0x74f6b,3324,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 12:42:53.570,"MD5=9D8E30DAF21108092D5980C931876B7E,SHA256=3247BCFD60F6DD25F34CB74B5889AB10EF1B3EC72B4D4B3D95B5B25B534560B8,IMPHASH=AFACF6DC9041114B198160AAB4D0AE77",Microsoft Corporation,10.0.22621.3085 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
-40mIwpEBz5Sj0Mnm5bcF,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+ParentCommandLine: powershell
+ParentUser: test\Admin""",5,2024-11-06T20:51:28.9081804Z,57570,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,1,False,4,Powershell process spawned powershell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]","[""PowerShell""]","[""T1059.001""]","[""Execution""]",92027,windows_eventchannel,log,"Nov 6, 2024 @ 20:51:30.747",EventChannel,1730926290.1143792,"Nov 6, 2024 @ 20:51:30.747", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,CSQ_A5MBYS7HPVChOZvp,1,1,192.168.28.148,Windows,1,ubuntu, ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , , ,{d186f312-d6d0-672b-6d04-000000001700}, , ,6008, ,2024-11-06 20:51:28.947, , , , , , ,test\\Admin, , ,11,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
 RuleName: -
-UtcTime: 2024-09-05 14:13:54.701
-ProcessGuid: {d186f312-bca2-66d9-8615-000000000a00}
-ProcessId: 12780
-Image: C:\Windows\System32\tasklist.exe
+UtcTime: 2024-11-06 20:51:28.947
+ProcessGuid: {d186f312-d6d0-672b-6d04-000000001700}
+ProcessId: 6008
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Admin\AppData\Local\Temp\__PSScriptPolicyTest_e05updl4.avx.ps1
+CreationUtcTime: 2024-11-06 20:51:28.947
+User: test\Admin""",2,2024-11-06T20:51:28.9629398Z,57571,4100,test,11,3668,INFORMATION,Microsoft-Windows-Sysmon,2,True,15,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]","[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]",92213,windows_eventchannel,log,"Nov 6, 2024 @ 20:51:30.786",EventChannel,1730926290.1149487,"Nov 6, 2024 @ 20:51:30.786",C:\\Users\\Admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_e05updl4.avx.ps1,2024-11-06 20:51:28.947, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,ASQ4A5MBYS7HPVChLZsd,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,2,False,3,PAM: Login session closed.,"[""pam"",""syslog""]", , , ,5502,pam,log,"Nov 6, 2024 @ 20:43:47.478",/var/log/auth.log,1730925827.1131735,"Nov 6, 2024 @ 20:43:47.478", , ,ubuntu,sudo,Nov  6 12:43:46,root,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AU.14"",""AC.7""]","[""7.8"",""7.9""]","[""IV_32.2""]",pam,Nov  6 12:43:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,AiQ4A5MBYS7HPVChLZsd,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,1,False,3,Successful sudo to ROOT executed.,"[""syslog"",""sudo""]","[""Sudo and Sudo Caching""]","[""T1548.003""]","[""Privilege Escalation"",""Defense Evasion""]",5402,sudo,log,"Nov 6, 2024 @ 20:43:47.478",/var/log/auth.log,1730925827.1132102,"Nov 6, 2024 @ 20:43:47.478", , ,ubuntu,sudo,Nov  6 12:43:46,root,"[""10.2.5"",""10.2.2""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AU.14"",""AC.7"",""AC.6""]","[""7.6"",""7.8"",""7.13""]","[""IV_32.2""]",sudo,Nov  6 12:43:46 ubuntu sudo:     root : TTY=pts/0 ; PWD=/home/pseudology ; USER=root ; COMMAND=/bin/cat /var/ossec/logs/api.log,root,pts/0,/home/pseudology,/bin/cat /var/ossec/logs/api.log,First time user executed the sudo command, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,_SQ2A5MBYS7HPVCh8Jqr,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,1,False,3,PAM: Login session closed.,"[""pam"",""syslog""]", , , ,5502,pam,log,"Nov 6, 2024 @ 20:42:27.396",/var/log/auth.log,1730925747.1128666,"Nov 6, 2024 @ 20:42:27.396", , ,ubuntu,sudo,Nov  6 12:42:25,root,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AU.14"",""AC.7""]","[""7.8"",""7.9""]","[""IV_32.2""]",pam,Nov  6 12:42:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,_iQ2A5MBYS7HPVCh9JqU,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,1,False,3,Wazuh server started.,"[""ossec""]", , , ,502,ossec,log,"Nov 6, 2024 @ 20:42:31.390",wazuh-monitord,1730925751.112903,"Nov 6, 2024 @ 20:42:31.390", , , , , , ,"[""10.6.1""]","[""164.312.b""]","[""CC7.2"",""CC7.3""]","[""AU.6""]","[""10.1""]","[""IV_35.7.d""]", ,ossec: Manager started., , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,'-yQ1A5MBYS7HPVChsJpW,1,1,192.168.28.148,Windows,1,ubuntu,dllhost.exe,C:\\Windows\\SysWOW64\\dllhost.exe,Microsoft® Windows® Operating System,{00000000-0000-0000-0000-000000000000},COM Surrogate,{d186f312-bc90-672b-984e-2b0000000000}, ,{d186f312-d462-672b-4004-000000001700},0x2b4e98,928,6392,C:\\Windows\\system32\\,2024-11-06 20:41:06.432,"MD5=BF60B3F6E01EDDEDE8551FA076472057,SHA256=D9B3874AA63F62699D5AE1ADE9959B45860D55233E93A1064D83B63307EA7435,IMPHASH=B7F063F6E914DB6ACB4DCC8D69219A5F", ,Microsoft Corporation,C:\\Windows\\SysWOW64\\DllHost.exe /Processid:{06622D85-6856-4460-8DE1-A81921B41C4B},Medium,10.0.22621.1 (WinBuild.160101.0800),test\\Admin,1, ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-11-06 20:41:06.432
+ProcessGuid: {d186f312-d462-672b-4004-000000001700}
+ProcessId: 6392
+Image: C:\Windows\SysWOW64\dllhost.exe
 FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
-Description: Lists the current running tasks
+Description: COM Surrogate
 Product: Microsoft® Windows® Operating System
 Company: Microsoft Corporation
-OriginalFileName: tasklist.exe
-CommandLine: tasklist.exe  
-CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+OriginalFileName: dllhost.exe
+CommandLine: C:\Windows\SysWOW64\DllHost.exe /Processid:{06622D85-6856-4460-8DE1-A81921B41C4B}
+CurrentDirectory: C:\Windows\system32\
 User: test\Admin
-LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
-LogonId: 0x74F6B
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
 TerminalSessionId: 1
 IntegrityLevel: Medium
-Hashes: MD5=3D705BA430E4E045884234A98B3388CF,SHA256=C54FDD83D88404A62EB945B862E13979481526D2AF7A97ABC92C50ECD06D4F70,IMPHASH=FCEA32ABE79C10DFACC88F5335DD89DE
-ParentProcessGuid: {d186f312-bc9f-66d9-7a15-000000000a00}
-ParentProcessId: 10844
-ParentImage: C:\Windows\System32\cmd.exe
-ParentCommandLine: ""cmd.exe"" /c netsh.exe advfirewall  show allprofiles  & netsh.exe advfirewall firewall dump & netsh.exe advfirewall show currentprofile & netsh.exe advfirewall firewall show rule name=all & netsh.exe firewall show state & netsh.exe firewall show config & sc query windefend & powershell.exe /c ""Get-Process | Where-Object { $_.ProcessName -eq 'Sysmon' }"" & powershell.exe /c ""Get-Service | where-object {$_.DisplayName -like '*sysm*'}"" & powershell.exe /c ""Get-CimInstance Win32_Service -Filter 'Description = ''System Monitor service'''"" & tasklist.exe & tasklist.exe | findstr /i virus & tasklist.exe | findstr /i cb & tasklist.exe | findstr /i defender & tasklist.exe | findstr /i cylance & tasklist.exe | findstr /i mc & tasklist.exe | findstr /i ""virus cb defender cylance mc""
-ParentUser: test\Admin""",5,2024-09-05T14:13:54.7022739Z,23007,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,40,False,3,Suspicious Windows cmd shell execution,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92032,windows_eventchannel,log,"Sep 5, 2024 @ 14:13:55.175",EventChannel,1725545635.185126,"Sep 5, 2024 @ 14:13:55.175", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,12780, , , , , , , , , , , ,"[""Account Discovery"",""Windows Command Shell""]","[""T1087"",""T1059.003""]","[""Discovery"",""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,tasklist.exe,C:\\Windows\\System32\\tasklist.exe,Lists the current running tasks,"\""cmd.exe\"" /c netsh.exe advfirewall  show allprofiles  &amp; netsh.exe advfirewall firewall dump &amp; netsh.exe advfirewall show currentprofile &amp; netsh.exe advfirewall firewall show rule name=all &amp; netsh.exe firewall show state &amp; netsh.exe firewall show config &amp; sc query windefend &amp; powershell.exe /c \""Get-Process | Where-Object { $_.ProcessName -eq 'Sysmon' }\"" &amp; powershell.exe /c \""Get-Service | where-object {$_.DisplayName -like '*sysm*'}\"" &amp; powershell.exe /c \""Get-CimInstance Win32_Service -Filter 'Description = ''System Monitor service'''\"" &amp; tasklist.exe &amp; tasklist.exe | findstr /i virus &amp; tasklist.exe | findstr /i cb &amp; tasklist.exe | findstr /i defender &amp; tasklist.exe | findstr /i cylance &amp; tasklist.exe | findstr /i mc &amp; tasklist.exe | findstr /i \""virus cb defender cylance mc\""",C:\\Windows\\System32\\cmd.exe,tasklist.exe,Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-bc9f-66d9-7a15-000000000a00},{d186f312-bca2-66d9-8615-000000000a00},0x74f6b,10844,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 14:13:54.701,"MD5=3D705BA430E4E045884234A98B3388CF,SHA256=C54FDD83D88404A62EB945B862E13979481526D2AF7A97ABC92C50ECD06D4F70,IMPHASH=FCEA32ABE79C10DFACC88F5335DD89DE",Microsoft Corporation,10.0.22621.1 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
-VklOwpEBz5Sj0MnmtbI2,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+Hashes: MD5=BF60B3F6E01EDDEDE8551FA076472057,SHA256=D9B3874AA63F62699D5AE1ADE9959B45860D55233E93A1064D83B63307EA7435,IMPHASH=B7F063F6E914DB6ACB4DCC8D69219A5F
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 928
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -""",5,2024-11-06T20:41:06.4336041Z,57536,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,2,True,12,Sysmon - Suspicious Process - dllhost.exe,"[""windows"",""sysmon"",""sysmon_process-anomalies""]","[""Process Injection""]","[""T1055""]","[""Defense Evasion"",""Privilege Escalation""]",61638,windows_eventchannel,log,"Nov 6, 2024 @ 20:41:08.266",EventChannel,1730925668.1122303,"Nov 6, 2024 @ 20:41:08.266", , , , , , ,"[""10.6.1"",""11.4""]","[""164.312.b""]","[""CC7.2"",""CC7.3"",""CC6.1"",""CC6.8""]","[""AU.6"",""SI.4""]", ,"[""IV_35.7.d""]", ,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2024-11-06T20:41:06.4336041Z"",""eventRecordID"":""57536"",""processID"":""3668"",""threadID"":""4100"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""test"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: -\r\nUtcTime: 2024-11-06 20:41:06.432\r\nProcessGuid: {d186f312-d462-672b-4004-000000001700}\r\nProcessId: 6392\r\nImage: C:\\Windows\\SysWOW64\\dllhost.exe\r\nFileVersion: 10.0.22621.1 (WinBuild.160101.0800)\r\nDescription: COM Surrogate\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: dllhost.exe\r\nCommandLine: C:\\Windows\\SysWOW64\\DllHost.exe /Processid:{06622D85-6856-4460-8DE1-A81921B41C4B}\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: test\\Admin\r\nLogonGuid: {d186f312-bc90-672b-984e-2b0000000000}\r\nLogonId: 0x2B4E98\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=BF60B3F6E01EDDEDE8551FA076472057,SHA256=D9B3874AA63F62699D5AE1ADE9959B45860D55233E93A1064D83B63307EA7435,IMPHASH=B7F063F6E914DB6ACB4DCC8D69219A5F\r\nParentProcessGuid: {00000000-0000-0000-0000-000000000000}\r\nParentProcessId: 928\r\nParentImage: -\r\nParentCommandLine: -\r\nParentUser: -\""""},""eventdata"":{""utcTime"":""2024-11-06 20:41:06.432"",""processGuid"":""{d186f312-d462-672b-4004-000000001700}"",""processId"":""6392"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\dllhost.exe"",""fileVersion"":""10.0.22621.1 (WinBuild.160101.0800)"",""description"":""COM Surrogate"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""dllhost.exe"",""commandLine"":""C:\\\\Windows\\\\SysWOW64\\\\DllHost.exe /Processid:{06622D85-6856-4460-8DE1-A81921B41C4B}"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""test\\\\Admin"",""logonGuid"":""{d186f312-bc90-672b-984e-2b0000000000}"",""logonId"":""0x2b4e98"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=BF60B3F6E01EDDEDE8551FA076472057,SHA256=D9B3874AA63F62699D5AE1ADE9959B45860D55233E93A1064D83B63307EA7435,IMPHASH=B7F063F6E914DB6ACB4DCC8D69219A5F"",""parentProcessGuid"":""{00000000-0000-0000-0000-000000000000}"",""parentProcessId"":""928""}}}", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,'-iQ1A5MBYS7HPVChoJq8,1,1,192.168.28.148,Windows,1,ubuntu,EXPLORER.EXE,C:\\Windows\\explorer.exe,Microsoft® Windows® Operating System,{00000000-0000-0000-0000-000000000000},Windows Explorer,{d186f312-bc90-672b-984e-2b0000000000}, ,{d186f312-d458-672b-3d04-000000001700},0x2b4e98,928,9484,C:\\Windows\\system32\\,2024-11-06 20:40:56.779,"MD5=CE22CB0EAAF28A024B477305D9A6D6A8,SHA256=6981CCEE742819613D24E0B7B53BA58112ED62240D76585EF41DEC2D0BF5A3CE,IMPHASH=ED29DB09A3DA7714B9F5B1FC7DB4DD57", ,Microsoft Corporation,"C:\\Windows\\explorer.exe /factory,{5BD95610-9434-43C2-886C-57852CC8A120} -Embedding",Medium,10.0.22621.4317 (WinBuild.160101.0800),test\\Admin,1, ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
 RuleName: -
-UtcTime: 2024-09-05 13:10:20.752
-ProcessGuid: {d186f312-adbc-66d9-4e0c-000000000a00}
-ProcessId: 10128
-Image: C:\Windows\System32\net1.exe
-FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
-Description: Net Command
+UtcTime: 2024-11-06 20:40:56.779
+ProcessGuid: {d186f312-d458-672b-3d04-000000001700}
+ProcessId: 9484
+Image: C:\Windows\explorer.exe
+FileVersion: 10.0.22621.4317 (WinBuild.160101.0800)
+Description: Windows Explorer
 Product: Microsoft® Windows® Operating System
 Company: Microsoft Corporation
-OriginalFileName: net1.exe
-CommandLine: C:\Windows\system32\net1  localgroup administrators art-test /add
-CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+OriginalFileName: EXPLORER.EXE
+CommandLine: C:\Windows\explorer.exe /factory,{5BD95610-9434-43C2-886C-57852CC8A120} -Embedding
+CurrentDirectory: C:\Windows\system32\
 User: test\Admin
-LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
-LogonId: 0x74F6B
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
 TerminalSessionId: 1
 IntegrityLevel: Medium
-Hashes: MD5=7CBB1DF40115C7D3CF0FE6CCFF82708E,SHA256=50E8AB76E511A917FD8CCF149DDAC1447FD817FF703AA9FDCC51DC77AC0237BE,IMPHASH=76EE66A0F294EAB08DCAEF5E64FBF02F
-ParentProcessGuid: {d186f312-adbc-66d9-4d0c-000000000a00}
-ParentProcessId: 13152
-ParentImage: C:\Windows\System32\net.exe
-ParentCommandLine: net  localgroup administrators art-test /add
-ParentUser: test\Admin""",5,2024-09-05T13:10:20.7525870Z,20211,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,18,False,3,Discovery activity executed,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92031,windows_eventchannel,log,"Sep 5, 2024 @ 13:10:21.795",EventChannel,1725541821.109723,"Sep 5, 2024 @ 13:10:21.795", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,10128, , , , , , , , , , , ,"[""Account Discovery""]","[""T1087""]","[""Discovery""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,net1.exe,C:\\Windows\\System32\\net1.exe,Net Command,net  localgroup administrators art-test /add,C:\\Windows\\System32\\net.exe,C:\\Windows\\system32\\net1  localgroup administrators art-test /add,Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-adbc-66d9-4d0c-000000000a00},{d186f312-adbc-66d9-4e0c-000000000a00},0x74f6b,13152,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 13:10:20.752,"MD5=7CBB1DF40115C7D3CF0FE6CCFF82708E,SHA256=50E8AB76E511A917FD8CCF149DDAC1447FD817FF703AA9FDCC51DC77AC0237BE,IMPHASH=76EE66A0F294EAB08DCAEF5E64FBF02F",Microsoft Corporation,10.0.22621.2506 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
-6Uk1wpEBz5Sj0Mnmlq68,1,1,192.168.28.148,Windows,1,ubuntu, , , , ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+Hashes: MD5=CE22CB0EAAF28A024B477305D9A6D6A8,SHA256=6981CCEE742819613D24E0B7B53BA58112ED62240D76585EF41DEC2D0BF5A3CE,IMPHASH=ED29DB09A3DA7714B9F5B1FC7DB4DD57
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 928
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -""",5,2024-11-06T20:40:56.7825863Z,57531,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,1,True,12,Sysmon - Suspicious Process - explorer.exe,"[""windows"",""sysmon"",""sysmon_process-anomalies""]","[""Process Injection""]","[""T1055""]","[""Defense Evasion"",""Privilege Escalation""]",61640,windows_eventchannel,log,"Nov 6, 2024 @ 20:40:58.590",EventChannel,1730925658.1117077,"Nov 6, 2024 @ 20:40:58.590", , , , , , ,"[""10.6.1"",""11.4""]","[""164.312.b""]","[""CC7.2"",""CC7.3"",""CC6.1"",""CC6.8""]","[""AU.6"",""SI.4""]", ,"[""IV_35.7.d""]", ,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2024-11-06T20:40:56.7825863Z"",""eventRecordID"":""57531"",""processID"":""3668"",""threadID"":""4100"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""test"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: -\r\nUtcTime: 2024-11-06 20:40:56.779\r\nProcessGuid: {d186f312-d458-672b-3d04-000000001700}\r\nProcessId: 9484\r\nImage: C:\\Windows\\explorer.exe\r\nFileVersion: 10.0.22621.4317 (WinBuild.160101.0800)\r\nDescription: Windows Explorer\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: EXPLORER.EXE\r\nCommandLine: C:\\Windows\\explorer.exe /factory,{5BD95610-9434-43C2-886C-57852CC8A120} -Embedding\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: test\\Admin\r\nLogonGuid: {d186f312-bc90-672b-984e-2b0000000000}\r\nLogonId: 0x2B4E98\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=CE22CB0EAAF28A024B477305D9A6D6A8,SHA256=6981CCEE742819613D24E0B7B53BA58112ED62240D76585EF41DEC2D0BF5A3CE,IMPHASH=ED29DB09A3DA7714B9F5B1FC7DB4DD57\r\nParentProcessGuid: {00000000-0000-0000-0000-000000000000}\r\nParentProcessId: 928\r\nParentImage: -\r\nParentCommandLine: -\r\nParentUser: -\""""},""eventdata"":{""utcTime"":""2024-11-06 20:40:56.779"",""processGuid"":""{d186f312-d458-672b-3d04-000000001700}"",""processId"":""9484"",""image"":""C:\\\\Windows\\\\explorer.exe"",""fileVersion"":""10.0.22621.4317 (WinBuild.160101.0800)"",""description"":""Windows Explorer"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""EXPLORER.EXE"",""commandLine"":""C:\\\\Windows\\\\explorer.exe /factory,{5BD95610-9434-43C2-886C-57852CC8A120} -Embedding"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""test\\\\Admin"",""logonGuid"":""{d186f312-bc90-672b-984e-2b0000000000}"",""logonId"":""0x2b4e98"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=CE22CB0EAAF28A024B477305D9A6D6A8,SHA256=6981CCEE742819613D24E0B7B53BA58112ED62240D76585EF41DEC2D0BF5A3CE,IMPHASH=ED29DB09A3DA7714B9F5B1FC7DB4DD57"",""parentProcessGuid"":""{00000000-0000-0000-0000-000000000000}"",""parentProcessId"":""928""}}}", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,4OwXA5MBZSL0ftCc7su_,1,1,192.168.28.148,Windows,1,ubuntu,dllhost.exe,C:\\Windows\\System32\\dllhost.exe,Microsoft® Windows® Operating System,{00000000-0000-0000-0000-000000000000},COM Surrogate,{d186f312-bc90-672b-984e-2b0000000000}, ,{d186f312-ccc4-672b-cf03-000000001700},0x2b4e98,928,11512,C:\\Windows\\system32\\,2024-11-06 20:08:36.349,"MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559", ,Microsoft Corporation,"\""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}",Medium,10.0.22621.1 (WinBuild.160101.0800),test\\Admin,1, ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
 RuleName: -
-UtcTime: 2024-09-05 12:42:50.799
-ProcessGuid: {d186f312-a74a-66d9-2308-000000000a00}
-ProcessId: 5828
+UtcTime: 2024-11-06 20:08:36.349
+ProcessGuid: {d186f312-ccc4-672b-cf03-000000001700}
+ProcessId: 11512
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: ""C:\Windows\system32\DllHost.exe"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}
+CurrentDirectory: C:\Windows\system32\
+User: test\Admin
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 928
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -""",5,2024-11-06T20:08:36.3602677Z,57396,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,4,True,12,Sysmon - Suspicious Process - dllhost.exe,"[""windows"",""sysmon"",""sysmon_process-anomalies""]","[""Process Injection""]","[""T1055""]","[""Defense Evasion"",""Privilege Escalation""]",61638,windows_eventchannel,log,"Nov 6, 2024 @ 20:08:38.098",EventChannel,1730923718.105988,"Nov 6, 2024 @ 20:08:38.098", , , , , , ,"[""10.6.1"",""11.4""]","[""164.312.b""]","[""CC7.2"",""CC7.3"",""CC6.1"",""CC6.8""]","[""AU.6"",""SI.4""]", ,"[""IV_35.7.d""]", ,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2024-11-06T20:08:36.3602677Z"",""eventRecordID"":""57396"",""processID"":""3668"",""threadID"":""4100"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""test"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: -\r\nUtcTime: 2024-11-06 20:08:36.349\r\nProcessGuid: {d186f312-ccc4-672b-cf03-000000001700}\r\nProcessId: 11512\r\nImage: C:\\Windows\\System32\\dllhost.exe\r\nFileVersion: 10.0.22621.1 (WinBuild.160101.0800)\r\nDescription: COM Surrogate\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: dllhost.exe\r\nCommandLine: \""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: test\\Admin\r\nLogonGuid: {d186f312-bc90-672b-984e-2b0000000000}\r\nLogonId: 0x2B4E98\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559\r\nParentProcessGuid: {00000000-0000-0000-0000-000000000000}\r\nParentProcessId: 928\r\nParentImage: -\r\nParentCommandLine: -\r\nParentUser: -\""""},""eventdata"":{""utcTime"":""2024-11-06 20:08:36.349"",""processGuid"":""{d186f312-ccc4-672b-cf03-000000001700}"",""processId"":""11512"",""image"":""C:\\\\Windows\\\\System32\\\\dllhost.exe"",""fileVersion"":""10.0.22621.1 (WinBuild.160101.0800)"",""description"":""COM Surrogate"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""dllhost.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\system32\\\\DllHost.exe\\\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""test\\\\Admin"",""logonGuid"":""{d186f312-bc90-672b-984e-2b0000000000}"",""logonId"":""0x2b4e98"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559"",""parentProcessGuid"":""{00000000-0000-0000-0000-000000000000}"",""parentProcessId"":""928""}}}", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,3OwVA5MBZSL0ftCcpMvn,1,1,192.168.28.148,Windows,1,ubuntu,dllhost.exe,C:\\Windows\\System32\\dllhost.exe,Microsoft® Windows® Operating System,{00000000-0000-0000-0000-000000000000},COM Surrogate,{d186f312-bc90-672b-984e-2b0000000000}, ,{d186f312-cc2d-672b-b703-000000001700},0x2b4e98,928,1928,C:\\Windows\\system32\\,2024-11-06 20:06:05.674,"MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559", ,Microsoft Corporation,"\""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}",Medium,10.0.22621.1 (WinBuild.160101.0800),test\\Admin,1, ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-11-06 20:06:05.674
+ProcessGuid: {d186f312-cc2d-672b-b703-000000001700}
+ProcessId: 1928
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: ""C:\Windows\system32\DllHost.exe"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}
+CurrentDirectory: C:\Windows\system32\
+User: test\Admin
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 928
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -""",5,2024-11-06T20:06:05.6874726Z,57372,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,2,True,12,Sysmon - Suspicious Process - dllhost.exe,"[""windows"",""sysmon"",""sysmon_process-anomalies""]","[""Process Injection""]","[""T1055""]","[""Defense Evasion"",""Privilege Escalation""]",61638,windows_eventchannel,log,"Nov 6, 2024 @ 20:06:07.458",EventChannel,1730923567.1034749,"Nov 6, 2024 @ 20:06:07.458", , , , , , ,"[""10.6.1"",""11.4""]","[""164.312.b""]","[""CC7.2"",""CC7.3"",""CC6.1"",""CC6.8""]","[""AU.6"",""SI.4""]", ,"[""IV_35.7.d""]", ,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2024-11-06T20:06:05.6874726Z"",""eventRecordID"":""57372"",""processID"":""3668"",""threadID"":""4100"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""test"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: -\r\nUtcTime: 2024-11-06 20:06:05.674\r\nProcessGuid: {d186f312-cc2d-672b-b703-000000001700}\r\nProcessId: 1928\r\nImage: C:\\Windows\\System32\\dllhost.exe\r\nFileVersion: 10.0.22621.1 (WinBuild.160101.0800)\r\nDescription: COM Surrogate\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: dllhost.exe\r\nCommandLine: \""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: test\\Admin\r\nLogonGuid: {d186f312-bc90-672b-984e-2b0000000000}\r\nLogonId: 0x2B4E98\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559\r\nParentProcessGuid: {00000000-0000-0000-0000-000000000000}\r\nParentProcessId: 928\r\nParentImage: -\r\nParentCommandLine: -\r\nParentUser: -\""""},""eventdata"":{""utcTime"":""2024-11-06 20:06:05.674"",""processGuid"":""{d186f312-cc2d-672b-b703-000000001700}"",""processId"":""1928"",""image"":""C:\\\\Windows\\\\System32\\\\dllhost.exe"",""fileVersion"":""10.0.22621.1 (WinBuild.160101.0800)"",""description"":""COM Surrogate"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""dllhost.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\system32\\\\DllHost.exe\\\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""test\\\\Admin"",""logonGuid"":""{d186f312-bc90-672b-984e-2b0000000000}"",""logonId"":""0x2b4e98"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559"",""parentProcessGuid"":""{00000000-0000-0000-0000-000000000000}"",""parentProcessId"":""928""}}}", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,1-wUA5MBZSL0ftCcHssn,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1001,0x8000000000000000,{0ead09bd-2157-539a-8d6d-c87f95b64d70},4,Application,0,"""Fault bucket 1270815547941923038, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SearchHost.exe
+P2: 2124.22709.10.0
+P3: 10.0.22631.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\Admin\AppData\Local\Temp\RDR5545.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.38566e72-2ca0-4299-bec7-53129d045359.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d0bea0f-7485-46e5-a490-7dc285995928.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cff5f587-cf29-4b7d-8b4c-473d1ed879df.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.71c3313d-1018-425f-817a-5b04841b389c.tmp.xml
+
+These files may be available here:
+NULL
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 6c8f2bdf-e233-41b5-8468-ddbe098c30ea
+Report Status: 268435456
+Hashed bucket: 22599b910277bd9ef1a2d801fe1f28de
+Cab Guid: 0""",0,2024-11-06T20:04:25.0001271Z,1599,6460,test,0,1968,INFORMATION,Windows Error Reporting,4,False,4,Summary event of the report's signatures.,"[""windows"",""windows_application""]", , , ,60608,windows_eventchannel,log,"Nov 6, 2024 @ 20:04:26.782",EventChannel,1730923466.1017008,"Nov 6, 2024 @ 20:04:26.782", , , , , , , , , , , , , , , , , , , ,SearchHost.exe,2124.22709.10.0,0,10.0.22631.2.0.0,  \\\\?\\C:\\Users\\Admin\\AppData\\Local\\Temp\\RDR5545.tmp\\empty.txt  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.38566e72-2ca0-4299-bec7-53129d045359.tmp.WERInternalMetadata.xml  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d0bea0f-7485-46e5-a490-7dc285995928.tmp.csv  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.cff5f587-cf29-4b7d-8b4c-473d1ed879df.tmp.txt  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.71c3313d-1018-425f-817a-5b04841b389c.tmp.xml,6c8f2bdf-e233-41b5-8468-ddbe098c30ea,268435456,1270815547941923038,,5,22599b910277bd9ef1a2d801fe1f28de,Not available,RADAR_PRE_LEAK_64,0,0, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,0ewRA5MBZSL0ftCcuMvP,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , ,0x46c, , , , , , , , , , , ,1000,0x8000000000000000,{a0e9b465-b939-57d7-b27d-95d8e925ff57},2,Application,0,"""Faulting application name: suricata.exe, version: 0.0.0.0, time stamp: 0x66fd52e0
+Faulting module name: msvcrt.dll, version: 7.0.22621.2506, time stamp: 0x657b2709
+Exception code: 0xc0000005
+Fault offset: 0x0000000000062071
+Faulting process id: 0x0x46C
+Faulting application start time: 0x0x1DB3086B4097D87
+Faulting application path: C:\Program Files\Suricata\suricata.exe
+Faulting module path: C:\Windows\System32\msvcrt.dll
+Report Id: f11bfb4a-dd7e-40ec-8cf8-1c1f33d5f482
+Faulting package full name: 
+Faulting package-relative application ID: """,0,2024-11-06T20:01:44.3088978Z,1595,3400,test,100,7008,ERROR,Application Error,2,False,9,Windows application error event.,"[""windows"",""windows_application"",""system_error""]", , , ,60602,windows_eventchannel,log,"Nov 6, 2024 @ 20:01:46.093",EventChannel,1730923306.983283,"Nov 6, 2024 @ 20:01:46.093", , , , , , , , , , ,"[""4.3""]","[""IV_35.7.d""]", , , , , , , , , , , , , , , , , , , , , , ,0.0.0.0,66fd52e0,suricata.exe,msvcrt.dll,0x1db3086b4097d87,657b2709,C:\\Program Files\\Suricata\\suricata.exe,C:\\Windows\\System32\\msvcrt.dll,7.0.22621.2506,0000000000062071,f11bfb4a-dd7e-40ec-8cf8-1c1f33d5f482,c0000005, , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,0uwRA5MBZSL0ftCcuMvP,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1001,0x8000000000000000,{0ead09bd-2157-539a-8d6d-c87f95b64d70},4,Application,0,"""Fault bucket 1631788397339093329, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: suricata.exe
+P2: 0.0.0.0
+P3: 66fd52e0
+P4: msvcrt.dll
+P5: 7.0.22621.2506
+P6: 657b2709
+P7: c0000005
+P8: 0000000000062071
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.09e97b17-b7bc-448f-baf7-cf027488a7e0.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.9053e994-1073-431b-b870-422bf7a39364.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.39f8ac7c-eb5a-4c43-a9c3-130577c2df8f.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4ab6d423-141b-49ae-8bf0-9e33303442b8.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.9e448eeb-3f5c-484f-9d74-78d557ba49ce.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_d45c835b-7ba9-42d3-b04d-90013b43c878
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: f11bfb4a-dd7e-40ec-8cf8-1c1f33d5f482
+Report Status: 268435456
+Hashed bucket: e1ebd1adb8d15bc936a546e6dc002951
+Cab Guid: 0""",0,2024-11-06T20:01:46.1438856Z,1596,3400,test,0,7008,INFORMATION,Windows Error Reporting,2,False,4,Summary event of the report's signatures.,"[""windows"",""windows_application""]", , , ,60608,windows_eventchannel,log,"Nov 6, 2024 @ 20:01:47.779",EventChannel,1730923307.986598,"Nov 6, 2024 @ 20:01:47.779", , , , , , , , , , , , , , , , , , , ,suricata.exe,0.0.0.0,0,66fd52e0,  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.09e97b17-b7bc-448f-baf7-cf027488a7e0.tmp.dmp  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9053e994-1073-431b-b870-422bf7a39364.tmp.WERInternalMetadata.xml  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.39f8ac7c-eb5a-4c43-a9c3-130577c2df8f.tmp.csv  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.4ab6d423-141b-49ae-8bf0-9e33303442b8.tmp.txt  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9e448eeb-3f5c-484f-9d74-78d557ba49ce.tmp.xml,f11bfb4a-dd7e-40ec-8cf8-1c1f33d5f482,268435456,1631788397339093329,\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_d45c835b-7ba9-42d3-b04d-90013b43c878,4,e1ebd1adb8d15bc936a546e6dc002951,Not available,APPCRASH,0,0, , , , , , , , , , , , ,msvcrt.dll,7.0.22621.2506,657b2709,c0000005,0000000000062071, , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,z-wRA5MBZSL0ftCcHMt6,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:01:06.8942498Z,30718,5716,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,2,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:01:08.679",EventChannel,1730923268.973259,"Nov 6, 2024 @ 20:01:08.679", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,xOwOA5MBZSL0ftCc9cul,1,1,192.168.28.148,Windows,1,ubuntu,Cmd.Exe,C:\\Windows\\System32\\cmd.exe,Microsoft® Windows® Operating System,{d186f312-ca71-672b-6703-000000001700},Windows Command Processor,{d186f312-bc90-672b-984e-2b0000000000},"C:\\Windows\\system32\\cmd.exe /c \""\""C:\\Program Files\\Suricata\\batch.bat\"" \""",{d186f312-ca72-672b-6b03-000000001700},0x2b4e98,5908,8668,C:\\Program Files\\Suricata\\,2024-11-06 19:58:42.244,"MD5=428CEC6B0034E0F183EB5BAE887BE480,SHA256=3F6AA206177BEBB29FC534C587A246E0F395941640F3F266C80743AF95A02150,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\\Windows\\System32\\cmd.exe,Microsoft Corporation,cmd  /k suricata.exe -help,Medium,10.0.22621.3672 (WinBuild.160101.0800),test\\Admin,1,test\\Admin,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-11-06 19:58:42.244
+ProcessGuid: {d186f312-ca72-672b-6b03-000000001700}
+ProcessId: 8668
 Image: C:\Windows\System32\cmd.exe
 FileVersion: 10.0.22621.3672 (WinBuild.160101.0800)
 Description: Windows Command Processor
 Product: Microsoft® Windows® Operating System
 Company: Microsoft Corporation
 OriginalFileName: Cmd.Exe
-CommandLine: ""C:\Windows\system32\cmd.exe"" /c nslookup 192.168.28.193
-CurrentDirectory: C:\Users\Admin\AppData\Local\Temp\
+CommandLine: cmd  /k suricata.exe -help
+CurrentDirectory: C:\Program Files\Suricata\
 User: test\Admin
-LogonGuid: {d186f312-804d-66d9-6b4f-070000000000}
-LogonId: 0x74F6B
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
 TerminalSessionId: 1
 IntegrityLevel: Medium
 Hashes: MD5=428CEC6B0034E0F183EB5BAE887BE480,SHA256=3F6AA206177BEBB29FC534C587A246E0F395941640F3F266C80743AF95A02150,IMPHASH=D73E39DAB3C8B57AA408073D01254964
-ParentProcessGuid: {d186f312-a743-66d9-9f06-000000000a00}
-ParentProcessId: 5520
-ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-ParentCommandLine: ""powershell.exe"" & {$localip = ((ipconfig | findstr [0-9].\.)[0]).Split()[-1]
-$pieces = $localip.split(\"""".\"""")
-$firstOctet = $pieces[0]
-$secondOctet = $pieces[1]
-$thirdOctet = $pieces[2]
-foreach ($ip in 1..255 | % { \""""$firstOctet.$secondOctet.$thirdOctet.$_\"""" } ) {cmd.exe /c nslookup $ip}}
-ParentUser: test\Admin""",5,2024-09-05T12:42:50.7997130Z,18336,4800,test,1,3776,INFORMATION,Microsoft-Windows-Sysmon,196,False,4,Powershell process spawned Windows command shell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92004,windows_eventchannel,log,"Sep 5, 2024 @ 12:42:55.714",EventChannel,1725540175.6445613,"Sep 5, 2024 @ 12:42:55.714", , , , , , , ,{d186f312-804d-66d9-6b4f-070000000000}, , , , ,5828, , , , , , , , , , , ,"[""Windows Command Shell""]","[""T1059.003""]","[""Execution""]", ,,,, , ,,,,,,,,,,,,,,,,,,,,,,,,,,, , , , , , , , ,,, , , , , , , , , ,,,,,,,,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,, , , , , , , , , , , , , , ,,, , ,Cmd.Exe,C:\\Windows\\System32\\cmd.exe,Windows Command Processor,"\""powershell.exe\"" &amp; {$localip = ((ipconfig | findstr [0-9].\\.)[0]).Split()[-1] $pieces = $localip.split(\\\""\"".\\\""\"") $firstOctet = $pieces[0] $secondOctet = $pieces[1] $thirdOctet = $pieces[2] foreach ($ip in 1..255 | % { \\\""\""$firstOctet.$secondOctet.$thirdOctet.$_\\\""\"" } ) {cmd.exe /c nslookup $ip}}",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,"\""C:\\Windows\\system32\\cmd.exe\"" /c nslookup 192.168.28.193",Medium,test\\Admin, , , , ,wazuh-alerts-4.x-2024.09.05,Microsoft® Windows® Operating System,{d186f312-a743-66d9-9f06-000000000a00},{d186f312-a74a-66d9-2308-000000000a00},0x74f6b,5520,C:\\Users\\Admin\\AppData\\Local\\Temp\\,2024-09-05 12:42:50.799,"MD5=428CEC6B0034E0F183EB5BAE887BE480,SHA256=3F6AA206177BEBB29FC534C587A246E0F395941640F3F266C80743AF95A02150,IMPHASH=D73E39DAB3C8B57AA408073D01254964",Microsoft Corporation,10.0.22621.3672 (WinBuild.160101.0800),1,test\\Admin, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+ParentProcessGuid: {d186f312-ca71-672b-6703-000000001700}
+ParentProcessId: 5908
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c """"C:\Program Files\Suricata\batch.bat"" ""
+ParentUser: test\Admin""",5,2024-11-06T19:58:42.2497820Z,57298,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,1,False,3,Suspicious Windows cmd shell execution,"[""sysmon"",""sysmon_eid1_detections"",""windows""]","[""Account Discovery"",""Windows Command Shell""]","[""T1087"",""T1059.003""]","[""Discovery"",""Execution""]",92032,windows_eventchannel,log,"Nov 6, 2024 @ 19:58:44.022",EventChannel,1730923124.93332,"Nov 6, 2024 @ 19:58:44.022", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,1OwRA5MBZSL0ftCc1Mso,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1001,0x8000000000000000,{0ead09bd-2157-539a-8d6d-c87f95b64d70},4,Application,0,"""Fault bucket 1631788397339093329, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: suricata.exe
+P2: 0.0.0.0
+P3: 66fd52e0
+P4: msvcrt.dll
+P5: 7.0.22621.2506
+P6: 657b2709
+P7: c0000005
+P8: 0000000000062071
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.da4581ec-a7bd-437c-addc-f859d964b621.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.860abe7b-27cc-4157-85af-7b84c628e493.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7cfbd088-86eb-489b-9550-e0bdd3d7d5e3.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.41175bfd-7d74-4446-a75b-dc8448523a61.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f30ac14c-2251-46a1-9082-1386bc92fc2b.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_5177b9ef-2194-4758-b2b9-a45b03f726f0
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 27977691-e0c3-41bc-abde-a553b9207950
+Report Status: 268435456
+Hashed bucket: e1ebd1adb8d15bc936a546e6dc002951
+Cab Guid: 0""",0,2024-11-06T20:01:56.7898100Z,1598,9240,test,0,8428,INFORMATION,Windows Error Reporting,3,False,4,Summary event of the report's signatures.,"[""windows"",""windows_application""]", , , ,60608,windows_eventchannel,log,"Nov 6, 2024 @ 20:01:58.449",EventChannel,1730923318.996148,"Nov 6, 2024 @ 20:01:58.449", , , , , , , , , , , , , , , , , , , ,suricata.exe,0.0.0.0,0,66fd52e0,  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.da4581ec-a7bd-437c-addc-f859d964b621.tmp.dmp  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.860abe7b-27cc-4157-85af-7b84c628e493.tmp.WERInternalMetadata.xml  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.7cfbd088-86eb-489b-9550-e0bdd3d7d5e3.tmp.csv  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.41175bfd-7d74-4446-a75b-dc8448523a61.tmp.txt  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.f30ac14c-2251-46a1-9082-1386bc92fc2b.tmp.xml,27977691-e0c3-41bc-abde-a553b9207950,268435456,1631788397339093329,\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_5177b9ef-2194-4758-b2b9-a45b03f726f0,4,e1ebd1adb8d15bc936a546e6dc002951,Not available,APPCRASH,0,0, , , , , , , , , , , , ,msvcrt.dll,7.0.22621.2506,657b2709,c0000005,0000000000062071, , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,CyRAA5MBYS7HPVChmZt9,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1014,0x4000000010000000,{1c95126e-7eea-49a9-a3fe-a378b03ddb4d},3,System,0,"""Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2108.""",1,2024-11-06T20:52:53.2252488Z,3704,3360,test,1014,1720,WARNING,Microsoft-Windows-DNS-Client,2,False,5,Name resolution for the name wpad timed out,"[""windows"",""windows_system""]", , , ,61109,windows_eventchannel,log,"Nov 6, 2024 @ 20:52:55.060",EventChannel,1730926375.1159513,"Nov 6, 2024 @ 20:52:55.060", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,128,2108,02000000C0A81C02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,wpad, , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,ByQ_A5MBYS7HPVChHpuU,1,1,192.168.28.148,Windows,1,ubuntu, ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , , ,{d186f312-d6c5-672b-6c04-000000001700}, , ,9832, ,2024-11-06 20:51:18.543, , , , , , ,test\\Admin, , ,11,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: -
+UtcTime: 2024-11-06 20:51:18.543
+ProcessGuid: {d186f312-d6c5-672b-6c04-000000001700}
+ProcessId: 9832
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Admin\AppData\Local\Temp\__PSScriptPolicyTest_pdnocw32.a5r.ps1
+CreationUtcTime: 2024-11-06 20:51:18.543
+User: test\Admin""",2,2024-11-06T20:51:18.5521789Z,57569,4100,test,11,3668,INFORMATION,Microsoft-Windows-Sysmon,1,True,15,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]","[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]",92213,windows_eventchannel,log,"Nov 6, 2024 @ 20:51:19.514",EventChannel,1730926279.114108,"Nov 6, 2024 @ 20:51:19.514",C:\\Users\\Admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_pdnocw32.a5r.ps1,2024-11-06 20:51:18.543, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,BCQ8A5MBYS7HPVChcpvu,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,2,False,7,Listened ports status (netstat) changed (new port opened or closed).,"[""ossec""]", , , ,533,ossec,log,"Nov 6, 2024 @ 20:48:23.802",netstat listening ports,1730926103.1139953,"Nov 6, 2024 @ 20:48:23.802", , , , , , ,"[""10.2.7"",""10.6.1""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AU.14"",""AU.6""]","[""10.1""]","[""IV_35.7.d""]", ,"ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:22 0.0.0.0:* 843/sshd
+tcp6 :::22 :::* 843/sshd
+udp 0.0.0.0:68 0.0.0.0:* 703/dhclient
+tcp 0.0.0.0:1514 0.0.0.0:* 4264/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 4150/wazuh-authd
+tcp 192.168.28.147:8888 0.0.0.0:* 5940/node
+tcp6 192.168.28.147:9200 :::* 1374/java
+tcp6 192.168.28.147:9300 :::* 1374/java
+tcp 0.0.0.0:55000 0.0.0.0:* 4102/python3", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"Previous output:
+ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:22 0.0.0.0:* 843/sshd
+tcp6 :::22 :::* 843/sshd
+udp 0.0.0.0:68 0.0.0.0:* 703/dhclient
+tcp 0.0.0.0:1514 0.0.0.0:* 4264/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 4150/wazuh-authd
+tcp 192.168.28.147:8888 0.0.0.0:* 724/node
+tcp6 192.168.28.147:9200 :::* 1374/java
+tcp6 192.168.28.147:9300 :::* 1374/java
+tcp 0.0.0.0:55000 0.0.0.0:* 4102/python3","ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:22 0.0.0.0:* 843/sshd
+tcp6 :::22 :::* 843/sshd
+udp 0.0.0.0:68 0.0.0.0:* 703/dhclient
+tcp 0.0.0.0:1514 0.0.0.0:* 4264/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 4150/wazuh-authd
+tcp 192.168.28.147:8888 0.0.0.0:* 724/node
+tcp6 192.168.28.147:9200 :::* 1374/java
+tcp6 192.168.28.147:9300 :::* 1374/java
+tcp 0.0.0.0:55000 0.0.0.0:* 4102/python3", ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,AyQ7A5MBYS7HPVChw5so,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:47:41.3370083Z,30760,5716,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,1,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:47:43.178",EventChannel,1730926063.113264,"Nov 6, 2024 @ 20:47:43.178", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,ACQ4A5MBYS7HPVChLZsd,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,1,False,3,PAM: Login session opened.,"[""pam"",""syslog"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",5501,pam,log,"Nov 6, 2024 @ 20:43:47.478",/var/log/auth.log,1730925827.113132,"Nov 6, 2024 @ 20:43:47.478", , ,ubuntu,sudo,Nov  6 12:43:46,root,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AU.14"",""AC.7""]","[""7.8"",""7.9""]","[""IV_32.2""]",pam,Nov  6 12:43:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by pseudology(uid=0),pseudology, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,8yQ0A5MBYS7HPVChe5ra,1,1, ,ubuntu,0,ubuntu, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,1,False,3,Wazuh server started.,"[""ossec""]", , , ,502,ossec,log,"Nov 6, 2024 @ 20:39:47.177",wazuh-monitord,1730925587.108247,"Nov 6, 2024 @ 20:39:47.177", , , , , , ,"[""10.6.1""]","[""164.312.b""]","[""CC7.2"",""CC7.3""]","[""AU.6""]","[""10.1""]","[""IV_35.7.d""]", ,ossec: Manager started., , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,9yQ0A5MBYS7HPVChe5rb,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:39:42.6660121Z,30758,5456,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,3,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:39:48.901",EventChannel,1730925588.1102488,"Nov 6, 2024 @ 20:39:48.901", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,'-CQ0A5MBYS7HPVChe5rb,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1014,0x4000000010000000,{1c95126e-7eea-49a9-a3fe-a378b03ddb4d},3,System,0,"""Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2108.""",1,2024-11-06T20:22:51.2555352Z,3702,6704,test,1014,1720,WARNING,Microsoft-Windows-DNS-Client,1,False,5,Name resolution for the name wpad timed out,"[""windows"",""windows_system""]", , , ,61109,windows_eventchannel,log,"Nov 6, 2024 @ 20:39:49.687",EventChannel,1730925589.11098,"Nov 6, 2024 @ 20:39:49.687", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,128,2108,02000000C0A81C02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,wpad, , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,5OwbA5MBZSL0ftCcv8tk,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1014,0x4000000010000000,{1c95126e-7eea-49a9-a3fe-a378b03ddb4d},3,System,0,"""Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2108.""",1,2024-11-06T20:12:44.2261634Z,3700,11648,test,1014,1720,WARNING,Microsoft-Windows-DNS-Client,1,False,5,Name resolution for the name wpad timed out,"[""windows"",""windows_system""]", , , ,61109,windows_eventchannel,log,"Nov 6, 2024 @ 20:12:45.951",EventChannel,1730923965.1070397,"Nov 6, 2024 @ 20:12:45.951", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,128,2108,02000000C0A81C02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,wpad, , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,zewRA5MBZSL0ftCcAcsg,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , ,0x273c, , , , , , , , , , , ,1000,0x8000000000000000,{a0e9b465-b939-57d7-b27d-95d8e925ff57},2,Application,0,"""Faulting application name: suricata.exe, version: 0.0.0.0, time stamp: 0x66fd52e0
+Faulting module name: msvcrt.dll, version: 7.0.22621.2506, time stamp: 0x657b2709
+Exception code: 0xc0000005
+Fault offset: 0x0000000000062071
+Faulting process id: 0x0x273C
+Faulting application start time: 0x0x1DB308697A0ED02
+Faulting application path: C:\Program Files\Suricata\suricata.exe
+Faulting module path: C:\Windows\System32\msvcrt.dll
+Report Id: d75a05c9-db00-4b94-984a-88e4d0dee974
+Faulting package full name: 
+Faulting package-relative application ID: """,0,2024-11-06T20:00:56.6971910Z,1593,6344,test,100,8384,ERROR,Application Error,1,False,9,Windows application error event.,"[""windows"",""windows_application"",""system_error""]", , , ,60602,windows_eventchannel,log,"Nov 6, 2024 @ 20:00:58.499",EventChannel,1730923258.963705,"Nov 6, 2024 @ 20:00:58.499", , , , , , , , , , ,"[""4.3""]","[""IV_35.7.d""]", , , , , , , , , , , , , , , , , , , , , , ,0.0.0.0,66fd52e0,suricata.exe,msvcrt.dll,0x1db308697a0ed02,657b2709,C:\\Program Files\\Suricata\\suricata.exe,C:\\Windows\\System32\\msvcrt.dll,7.0.22621.2506,0000000000062071,d75a05c9-db00-4b94-984a-88e4d0dee974,c0000005, , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,zuwRA5MBZSL0ftCcAcsg,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , , , , , , , , , , , , , ,1001,0x8000000000000000,{0ead09bd-2157-539a-8d6d-c87f95b64d70},4,Application,0,"""Fault bucket 1631788397339093329, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: suricata.exe
+P2: 0.0.0.0
+P3: 66fd52e0
+P4: msvcrt.dll
+P5: 7.0.22621.2506
+P6: 657b2709
+P7: c0000005
+P8: 0000000000062071
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.548784b4-6326-4771-af73-98b9e32369e7.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.9b23de1e-5901-4e90-a1b7-2e138ecd6dfa.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cf43bb34-c24c-44d7-b785-dd1167fcb466.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2645caca-efde-4368-9135-f0acdbdd5151.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.905f9ed9-4ffa-467a-9a43-e5ddd16ae3d9.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_37927b2e-23a0-442a-8a5d-76e5d3d6af13
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: d75a05c9-db00-4b94-984a-88e4d0dee974
+Report Status: 268435456
+Hashed bucket: e1ebd1adb8d15bc936a546e6dc002951
+Cab Guid: 0""",0,2024-11-06T20:00:58.4089403Z,1594,6344,test,0,8384,INFORMATION,Windows Error Reporting,1,False,4,Summary event of the report's signatures.,"[""windows"",""windows_application""]", , , ,60608,windows_eventchannel,log,"Nov 6, 2024 @ 20:01:00.070",EventChannel,1730923260.967024,"Nov 6, 2024 @ 20:01:00.070", , , , , , , , , , , , , , , , , , , ,suricata.exe,0.0.0.0,0,66fd52e0,  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.548784b4-6326-4771-af73-98b9e32369e7.tmp.dmp  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9b23de1e-5901-4e90-a1b7-2e138ecd6dfa.tmp.WERInternalMetadata.xml  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.cf43bb34-c24c-44d7-b785-dd1167fcb466.tmp.csv  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2645caca-efde-4368-9135-f0acdbdd5151.tmp.txt  \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.905f9ed9-4ffa-467a-9a43-e5ddd16ae3d9.tmp.xml,d75a05c9-db00-4b94-984a-88e4d0dee974,268435456,1631788397339093329,\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_suricata.exe_a2786246fa58d7b4de7fbece503f796533468a2_d4471e41_37927b2e-23a0-442a-8a5d-76e5d3d6af13,4,e1ebd1adb8d15bc936a546e6dc002951,Not available,APPCRASH,0,0, , , , , , , , , , , , ,msvcrt.dll,7.0.22621.2506,657b2709,c0000005,0000000000062071, , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,3ewXA5MBZSL0ftCcF8vr,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:07:37.1235700Z,30732,9748,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,6,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:07:38.884",EventChannel,1730923658.104,"Nov 6, 2024 @ 20:07:38.884", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,3uwXA5MBZSL0ftCcF8vr,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:07:37.9977337Z,30734,9212,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,7,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:07:38.910",EventChannel,1730923658.104731,"Nov 6, 2024 @ 20:07:38.910", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,1uwUA5MBZSL0ftCcHssn,1,1,192.168.28.148,Windows,1,ubuntu, , , , , ,{00000000-0000-0000-0000-000000000000}, , , , ,0x2cc, , , , , , , , , , , ,4624,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		TEST$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2cc
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",3,2024-11-06T20:04:23.2996123Z,30728,9748,test,12544,776,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,4,False,3,Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]","[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]",60106,windows_eventchannel,log,"Nov 6, 2024 @ 20:04:25.093",EventChannel,1730923465.1009696,"Nov 6, 2024 @ 20:04:25.093", , , , , , ,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]","[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,SYSTEM,0,%%1842,S-1-5-18,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,TEST$, , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,x-wPA5MBZSL0ftCcBctH,1,1,192.168.28.148,Windows,1,ubuntu,dllhost.exe,C:\\Windows\\System32\\dllhost.exe,Microsoft® Windows® Operating System,{00000000-0000-0000-0000-000000000000},COM Surrogate,{d186f312-bc90-672b-984e-2b0000000000}, ,{d186f312-ca7c-672b-7103-000000001700},0x2b4e98,928,9816,C:\\Windows\\system32\\,2024-11-06 19:58:52.846,"MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559", ,Microsoft Corporation,"\""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}",Medium,10.0.22621.1 (WinBuild.160101.0800),test\\Admin,1, ,1,0x8000000000000000,{5770385f-c22a-43e0-bf4c-06f5698ffbd9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: -
+UtcTime: 2024-11-06 19:58:52.846
+ProcessGuid: {d186f312-ca7c-672b-7103-000000001700}
+ProcessId: 9816
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: ""C:\Windows\system32\DllHost.exe"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}
+CurrentDirectory: C:\Windows\system32\
+User: test\Admin
+LogonGuid: {d186f312-bc90-672b-984e-2b0000000000}
+LogonId: 0x2B4E98
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 928
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -""",5,2024-11-06T19:58:52.8504999Z,57304,4100,test,1,3668,INFORMATION,Microsoft-Windows-Sysmon,7,True,12,Sysmon - Suspicious Process - dllhost.exe,"[""windows"",""sysmon"",""sysmon_process-anomalies""]","[""Process Injection""]","[""T1055""]","[""Defense Evasion"",""Privilege Escalation""]",61638,windows_eventchannel,log,"Nov 6, 2024 @ 19:58:54.625",EventChannel,1730923134.948427,"Nov 6, 2024 @ 19:58:54.625", , , , , , ,"[""10.6.1"",""11.4""]","[""164.312.b""]","[""CC7.2"",""CC7.3"",""CC6.1"",""CC6.8""]","[""AU.6"",""SI.4""]", ,"[""IV_35.7.d""]", ,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2024-11-06T19:58:52.8504999Z"",""eventRecordID"":""57304"",""processID"":""3668"",""threadID"":""4100"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""test"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: -\r\nUtcTime: 2024-11-06 19:58:52.846\r\nProcessGuid: {d186f312-ca7c-672b-7103-000000001700}\r\nProcessId: 9816\r\nImage: C:\\Windows\\System32\\dllhost.exe\r\nFileVersion: 10.0.22621.1 (WinBuild.160101.0800)\r\nDescription: COM Surrogate\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: dllhost.exe\r\nCommandLine: \""C:\\Windows\\system32\\DllHost.exe\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: test\\Admin\r\nLogonGuid: {d186f312-bc90-672b-984e-2b0000000000}\r\nLogonId: 0x2B4E98\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559\r\nParentProcessGuid: {00000000-0000-0000-0000-000000000000}\r\nParentProcessId: 928\r\nParentImage: -\r\nParentCommandLine: -\r\nParentUser: -\""""},""eventdata"":{""utcTime"":""2024-11-06 19:58:52.846"",""processGuid"":""{d186f312-ca7c-672b-7103-000000001700}"",""processId"":""9816"",""image"":""C:\\\\Windows\\\\System32\\\\dllhost.exe"",""fileVersion"":""10.0.22621.1 (WinBuild.160101.0800)"",""description"":""COM Surrogate"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""dllhost.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\system32\\\\DllHost.exe\\\"" /Processid:{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""test\\\\Admin"",""logonGuid"":""{d186f312-bc90-672b-984e-2b0000000000}"",""logonId"":""0x2b4e98"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=144FA51A15E98D84D28EEAB815BC9A8B,SHA256=FDFAD08EADD54A431E431FEBE60E87B574CE90E5502ED0BE2F026A1828120FC6,IMPHASH=FBDAC0471446783AD621D3CAB6033559"",""parentProcessGuid"":""{00000000-0000-0000-0000-000000000000}"",""parentProcessId"":""928""}}}", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
+wazuh-alerts-4.x-2024.11.06,xewOA5MBZSL0ftCc9cul,1,1,192.168.28.148,Windows,1,ubuntu, , , , , , , , , , ,0x1bf4, , , , , , , , , , , ,1000,0x8000000000000000,{a0e9b465-b939-57d7-b27d-95d8e925ff57},2,Application,0,"""Faulting application name: suricata.exe, version: 0.0.0.0, time stamp: 0x66fd52e0
+Faulting module name: msvcrt.dll, version: 7.0.22621.2506, time stamp: 0x657b2709
+Exception code: 0xc0000005
+Fault offset: 0x0000000000062071
+Faulting process id: 0x0x1BF4
+Faulting application start time: 0x0x1DB30864B443E0A
+Faulting application path: C:\Program Files\Suricata\suricata.exe
+Faulting module path: C:\Windows\System32\msvcrt.dll
+Report Id: e67b08ef-66c8-4b50-aed6-f12780f6f4da
+Faulting package full name: 
+Faulting package-relative application ID: """,0,2024-11-06T19:58:48.6059058Z,1591,5756,test,100,2896,ERROR,Application Error,10,False,9,Windows application error event.,"[""windows"",""windows_application"",""system_error""]", , , ,60602,windows_eventchannel,log,"Nov 6, 2024 @ 19:58:50.376",EventChannel,1730923130.938873,"Nov 6, 2024 @ 19:58:50.376", , , , , , , , , , ,"[""4.3""]","[""IV_35.7.d""]", , , , , , , , , , , , , , , , , , , , , , ,0.0.0.0,66fd52e0,suricata.exe,msvcrt.dll,0x1db30864b443e0a,657b2709,C:\\Program Files\\Suricata\\suricata.exe,C:\\Windows\\System32\\msvcrt.dll,7.0.22621.2506,0000000000062071,e67b08ef-66c8-4b50-aed6-f12780f6f4da,c0000005, , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,,,,
