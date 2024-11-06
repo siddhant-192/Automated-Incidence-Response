@@ -1,7 +1,6 @@
 import requests
 
 def generate_text(input_text, url="http://localhost:5010/generate"):
-    print("Generating text called")
     """
     Sends a request to the LLM server to generate text based on the input text.
 

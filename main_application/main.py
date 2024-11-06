@@ -370,7 +370,6 @@ def markup_report_llm(report):
     return timestamp
 
 def report_generator(timestamp):
-    print("Report Generation function called")
     # Compile the syntax to make a report and downloadable in pdf format
 
     syntax_to_pdf(timestamp=timestamp)
